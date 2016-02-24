@@ -10,5 +10,6 @@ object SimpleApp {
     val data = Array(1, 2, 3, 4, 5)
     val distData = sc.parallelize(data)
     println("Count: %d".format(distData.count()))
+    sc.stop()
   }
 }
