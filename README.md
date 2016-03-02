@@ -1,6 +1,12 @@
 # wikipedia-project
+[![Build Status](https://travis-ci.org/comp541dm/wikipedia-project.svg?branch=master)](https://travis-ci.org/comp541dm/wikipedia-project)
 
   - [Data here](https://en.wikipedia.org/wiki/Wikipedia:Database_download)
+
+## Usage
+```
+sbt run
+```
 
 ## Topic Modeling
 [Project here](topic-modeling)
