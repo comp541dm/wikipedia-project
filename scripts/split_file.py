@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import sys
 import re
 
@@ -24,10 +25,28 @@ def split_file(f_name, dir='.'):
         else:
             curr_article.append(s_line)
 
+# Turn sample into one article per line file
+def oneline_file(f_name, output_file):
+    curr_article = []
+    article_name = None
+    with open(output_file, 'w') as f:
+        for line in open(f_name):
+            s_line = line.strip()
+            m = re.search('<title>(.*)</title>', s_line)
+            if m and article_name:
+                # article_name: full text contents dict
+                article = ' '.join(curr_article)
+                f.write(article)
+                f.write('\n')
+                article_name = clean_article_name(m.group(1))
+                curr_article = []
+            elif m:
+                article_name = clean_article_name(m.group(1))
+            else:
+                curr_article.append(s_line)
+
 if __name__ == '__main__':
-    if len(sys.argv) == 2:
-        split_file(sys.argv[1])
-    elif len(sys.argv) == 3:
-        split_file(sys.argv[1], sys.argv[2])
+    if len(sys.argv) == 3:
+        oneline_file(sys.argv[1], sys.argv[2])
     else:
         print "usage: <datafile> (<output folder>)"
