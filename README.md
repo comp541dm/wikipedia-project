@@ -5,7 +5,7 @@
 
 ## Usage
 ```
-sbt run
+sbt "run-main LDAExample --k=5 --stopwordFile=data/stop_words.txt data/cleaned_articles.txt"
 ```
 
 ## Topic Modeling
