@@ -106,7 +106,11 @@ object LDAExample {
   }
 
   private def run(params: Params) {
-    val conf = new SparkConf().setAppName(s"LDAExample with $params").setMaster("local[2]")
+    val conf = new SparkConf().setAppName(s"LDAExample with $params")
+      .setMaster("local[2]")
+      .set("spark.executor.memory", "6g")
+      .set("spark.driver.maxResultSize", "10g")
+      .set("spark.driver.memory", "12g")
     val sc = new SparkContext(conf)
 
     Logger.getRootLogger.setLevel(Level.WARN)
