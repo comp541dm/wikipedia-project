@@ -8,6 +8,15 @@
 sbt "run-main LDAExample --k=5 --stopwordFile=data/stop_words.txt data/cleaned_articles.txt"
 ```
 
+### Fill the stopword file
+Words that appear in more than k/4 of the topics will automatically get added to the stop word file. Run this to fill up the stop word file with common words.
+```
+# Run 5 times on random part of the dataset
+for i in seq 5; do
+    sbt "run-main LDAExample --k=20 --stopwordFile=data/stop_words.txt --vocabSize=100 ../wikipedia_data/disk{$(gshuf -i 1-999 -n 15 | paste -s -d, -)}.txt"
+done
+```
+
 ## Topic Modeling
 [Project here](topic-modeling)
 
