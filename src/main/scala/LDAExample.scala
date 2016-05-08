@@ -17,6 +17,8 @@
 
 // scalastyle:off println
 
+import java.io.FileWriter
+
 import org.apache.log4j.{Level, Logger}
 import scopt.OptionParser
 
@@ -107,9 +109,9 @@ object LDAExample {
 
   private def run(params: Params) {
     val conf = new SparkConf().setAppName(s"LDAExample with $params")
-      .setMaster("local[2]")
+      .setMaster("local[3]")
       .set("spark.executor.memory", "6g")
-      .set("spark.driver.maxResultSize", "10g")
+      .set("spark.driver.maxResultSize", "20g")
       .set("spark.driver.memory", "12g")
     val sc = new SparkContext(conf)
 
@@ -172,13 +174,45 @@ object LDAExample {
       terms.zip(termWeights).map { case (term, weight) => (vocabArray(term.toInt), weight) }
     }
     println(s"${params.k} topics:")
+
+    var allTerms = List[String]()
     topics.zipWithIndex.foreach { case (topic, i) =>
       println(s"TOPIC $i")
+      var topicSet = scala.collection.mutable.Set[String]()
       topic.foreach { case (term, weight) =>
         println(s"$term\t$weight")
+        allTerms = term :: allTerms
       }
+
       println()
     }
+    println("Terms found in all topics: ")
+
+    val topicWordCounts = allTerms.foldLeft(Map.empty[String, Int]){
+      (count, word) => count + (word -> (count.getOrElse(word, 0) + 1))
+    }
+
+    topicWordCounts.toSeq.sortWith(_._2 < _._2).foreach((x) => printf("%s: %d\n", x._1, x._2))
+
+    // If a word appears in more than half the topics, add it to the stopwords file
+    val stopwordsFile = params.stopwordFile
+    if (! stopwordsFile.isEmpty ) {
+      val k = params.k
+      val fw = new FileWriter(stopwordsFile, true)
+      try {
+        topicWordCounts.toSeq.sortWith(_._2 < _._2).foreach((x) => {
+          val key = x._1
+          val value = x._2
+          if (value > k / 4) {
+            fw.write(x._1 + "\n")
+            printf("The word '%s' appeared in %d topics: adding to %s.\n", key, value, stopwordsFile)
+          }
+        })
+
+      }
+      finally fw.close()
+    }
+
     sc.stop()
   }
 
