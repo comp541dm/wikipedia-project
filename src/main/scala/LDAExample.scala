@@ -205,7 +205,7 @@ object LDAExample {
           val value = x._2
           // Remove words with more than 25% of topics with that word
           // Remove words with 3 characters or less
-          if (value > k / 4 ||  key.length() <= 3) {
+          if (value > k / 2 ||  key.length() <= 3) {
             fw.write(x._1 + "\n")
             printf("The word '%s' appeared in %d topics: adding to %s.\n", key, value, stopwordsFile)
           }

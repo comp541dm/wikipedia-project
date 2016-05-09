@@ -8,6 +8,12 @@
 sbt "run-main LDAExample --k=5 --stopwordFile=data/stop_words.txt data/cleaned_articles.txt"
 ```
 
+## Run Over Whole Dataset
+Runs in ~20 batches and writes all the data to `data/` to log results.
+```
+for i in $(seq 51 50 999); do sbt "run-main LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{$(seq -s, -t$'\b' $i $((i + 48)))}.txt" >> data/disk${i}-$((i + 48)).log; done
+```
+
 ### Fill the stopword file
 Words that appear in more than k/4 of the topics will automatically get added to the stop word file. Run this to fill up the stop word file with common words.
 ```
