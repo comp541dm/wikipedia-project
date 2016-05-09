@@ -1,0 +1,208 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{901,902,903,904,905,906,907,908,909,910,911,912,913,914,915,916,917,918,919,920,921,922,923,924,925,926,927,928,929,930,931,932,933,934,935,936,937,938,939,940,941,942,943,944,945,946,947,948,949,}.txt[0m
+
+Corpus summary:
+	 Training set size: 785192 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 208906 tokens
+	 Preprocessing time: 123.86137 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 32.006717 sec
+	 Training data average log likelihood: -2.4284226573198784
+
+10 topics:
+TOPIC 0
+yang	0.047972866641867444
+depth	0.04049150749993216
+earthquake	0.03468680576884577
+wang	0.02101900553420445
+qualification	0.019459072866410108
+para	0.013787474421455158
+concrete	0.012385925099822557
+auto	0.011144352663310306
+textalign	0.010899146333594291
+brick	0.010261498612045639
+
+TOPIC 1
+https	0.013348520578977957
+cerambycidae	0.012005883990961069
+crambidae	0.011825343730004073
+nigeria	0.010606157087263665
+youtube	0.010530319092188625
+brick	0.00991992908052536
+forewings	0.009884753100438081
+timber	0.00985461209889437
+solutions	0.009796365930941443
+cinema	0.009584263084991626
+
+TOPIC 2
+yesstack	0.04973021007595166
+patent	0.024113877671630077
+textalign	0.010780937696020967
+mercury	0.010740982428037966
+fontstyle	0.010081784549859743
+formatwoff	0.009999442405115706
+fontface	0.009911860129448828
+auto	0.009799191834733363
+galaxy	0.009776293745017312
+toctitle	0.009775128388388737
+
+TOPIC 3
+fart	0.9322883590896298
+cerambycidae	0.001950268449944891
+crambidae	0.0017837493709243891
+contested	0.0010368892131729444
+forewings	0.0010084349330656927
+irrelevant	9.972351849846955E-4
+notices	9.902978137398017E-4
+cyclist	9.79710499252492E-4
+silent	9.3302725638425E-4
+notice	8.953646476882472E-4
+
+TOPIC 4
+allah	0.15511544119898235
+akbad	0.1445823619377084
+erds	0.05044300616188227
+morganfreemanlover	0.05034537779586767
+filmography	0.04402979242810961
+pzbl	0.034332548648689065
+issn	0.03391213326128916
+cerambycidae	0.007742282828358959
+crambidae	0.007422374318294042
+kumar	0.005448978178871033
+
+TOPIC 5
+bacon	0.30985344693805955
+cuisine	0.04192634360328369
+cerambycidae	0.00911214117471646
+crambidae	0.00882801060198509
+brick	0.007084278946622052
+youtube	0.006934618302216213
+linestyle	0.006813985187554109
+forewings	0.006691617516476947
+ffffcolor	0.006589100696066975
+download	0.0063381506779132514
+
+TOPIC 6
+jpgordon	0.09645425520669132
+shit	0.05976855557159978
+atoll	0.04816654525118706
+eats	0.036754519551377374
+archive	0.02006017343745102
+timber	0.008506360668313192
+https	0.007938383396939934
+brick	0.0079349641784852
+cerambycidae	0.007763940128616358
+crambidae	0.007571237661388844
+
+TOPIC 7
+fart	0.9531774981128858
+cerambycidae	0.001323436845322644
+crambidae	0.001216690723503688
+contested	7.146139838408312E-4
+forewings	7.027127211696918E-4
+notices	6.874988189975273E-4
+cyclist	6.68978633170607E-4
+irrelevant	6.58688357364714E-4
+youtube	6.376961976713901E-4
+silent	6.229260265670973E-4
+
+TOPIC 8
+tite	0.04457758938337815
+saros	0.044531272715704846
+tipe	0.0445311975447199
+titb	0.04439230616469185
+tipb	0.04434598332172355
+linestring	0.02587151687107398
+galaxy	0.012761352166059007
+linestyle	0.01251102821982795
+dangerous	0.012405400887719454
+orbit	0.011684440975396046
+
+TOPIC 9
+crust	0.046190963966244655
+breuning	0.04057965503793107
+rises	0.03686003002621093
+ozone	0.035933057302013016
+orbits	0.030364687002500456
+oceans	0.03002285164837642
+orbit	0.02961876597500008
+syears	0.028534946300806562
+mantle	0.027552438707731775
+gases	0.027484210560017416
+
+Terms found in all topics: 
+dangerous: 1
+titb: 1
+solutions: 1
+rises: 1
+toctitle: 1
+qualification: 1
+para: 1
+tipb: 1
+tipe: 1
+ffffcolor: 1
+fontface: 1
+yesstack: 1
+gases: 1
+cuisine: 1
+formatwoff: 1
+crust: 1
+syears: 1
+pzbl: 1
+atoll: 1
+morganfreemanlover: 1
+tite: 1
+linestring: 1
+saros: 1
+notice: 1
+yang: 1
+bacon: 1
+cinema: 1
+akbad: 1
+mercury: 1
+allah: 1
+mantle: 1
+fontstyle: 1
+erds: 1
+concrete: 1
+ozone: 1
+depth: 1
+shit: 1
+breuning: 1
+nigeria: 1
+orbits: 1
+archive: 1
+earthquake: 1
+download: 1
+jpgordon: 1
+filmography: 1
+patent: 1
+kumar: 1
+eats: 1
+issn: 1
+oceans: 1
+wang: 1
+auto: 2
+irrelevant: 2
+silent: 2
+linestyle: 2
+timber: 2
+fart: 2
+contested: 2
+galaxy: 2
+https: 2
+orbit: 2
+cyclist: 2
+notices: 2
+textalign: 2
+youtube: 3
+forewings: 4
+brick: 4
+cerambycidae: 6
+crambidae: 6
+The word 'cerambycidae' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'crambidae' appeared in 6 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 161 s, completed May 8, 2016 11:57:40 PM[0m

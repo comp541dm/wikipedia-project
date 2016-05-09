@@ -1,0 +1,120 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=6 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk[1-6][0-9].txt[0m
+
+Corpus summary:
+	 Training set size: 458489 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 1699350 tokens
+	 Preprocessing time: 272.483305 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 57.879391 sec
+	 Training data average log likelihood: -28.47715799167531
+
+6 topics:
+TOPIC 0
+contrast	0.006665209032536161
+maintain	0.006582638587885308
+normally	0.006322349143606408
+somewhat	0.006291496618974783
+horses	0.006277389593961781
+symbol	0.006237303632185365
+significantly	0.006143890933761149
+grounds	0.006129209433181404
+argued	0.006117793834732848
+advantage	0.006078696684981086
+
+TOPIC 1
+siege	0.009798392993729654
+contrast	0.006680851951538644
+maintain	0.006519496684372655
+normally	0.006303119489918202
+grounds	0.006286705093690887
+somewhat	0.0062106548706433755
+advantage	0.006143844764613955
+significantly	0.006075500011896496
+argued	0.0059842228448765645
+separated	0.005913644570040075
+
+TOPIC 2
+boeing	0.008922675787147415
+continental	0.007089858251389195
+matrix	0.006696718811226051
+maintain	0.006425424758228588
+contrast	0.00637447497862601
+normally	0.0062905287466871115
+somewhat	0.006202912230244177
+purchase	0.0061268949067055396
+symbol	0.00611542076222398
+significantly	0.006061830882345997
+
+TOPIC 3
+boeing	0.007777499538562745
+delta	0.007496023873346873
+maintain	0.006502458331118452
+contrast	0.006480375341132946
+somewhat	0.0062830273839182315
+grounds	0.006147977856286732
+normally	0.006121844356392792
+argued	0.006091318314889325
+significantly	0.006085690703947013
+advantage	0.006075468741940339
+
+TOPIC 4
+maintain	0.006461829975650122
+contrast	0.006439202175048918
+normally	0.006317427482973564
+somewhat	0.006294734316663702
+advantage	0.0061100648821036125
+significantly	0.006083752951858772
+argued	0.006080341250481819
+symbol	0.006058225970295548
+purchase	0.005964848233835346
+grounds	0.005912863089436885
+
+TOPIC 5
+eagle	0.007547810355529974
+matrix	0.006725666656988433
+contrast	0.006684717277524826
+maintain	0.006526384162070515
+grounds	0.006373227704977687
+normally	0.006307986885997824
+somewhat	0.0062928493254996104
+snow	0.00612743091832001
+argued	0.006126618124176945
+symbol	0.0061224556708898694
+
+Terms found in all topics: 
+snow: 1
+siege: 1
+separated: 1
+continental: 1
+horses: 1
+delta: 1
+eagle: 1
+matrix: 2
+boeing: 2
+purchase: 2
+advantage: 4
+symbol: 4
+significantly: 5
+grounds: 5
+argued: 5
+somewhat: 6
+normally: 6
+contrast: 6
+maintain: 6
+The word 'matrix' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'boeing' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'purchase' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'advantage' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'symbol' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'significantly' appeared in 5 topics: adding to data/stop_words.txt.
+The word 'grounds' appeared in 5 topics: adding to data/stop_words.txt.
+The word 'argued' appeared in 5 topics: adding to data/stop_words.txt.
+The word 'somewhat' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'normally' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'contrast' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'maintain' appeared in 6 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 338 s, completed May 8, 2016 6:33:29 AM[0m

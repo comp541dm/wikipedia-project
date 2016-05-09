@@ -1,0 +1,210 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599,}.txt[0m
+
+Corpus summary:
+	 Training set size: 347946 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 223436 tokens
+	 Preprocessing time: 52.627715 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 22.931617 sec
+	 Training data average log likelihood: -5.919768245426572
+
+10 topics:
+TOPIC 0
+ganeshbot	0.08723043117763356
+tech	0.011366912129356803
+constructively	0.010559975717402647
+republika	0.009523102884222145
+serie	0.00938525849615139
+coibot	0.009128425182353291
+wizard	0.008998822395205379
+choir	0.008818472394559337
+feed	0.00870712261410478
+rico	0.008229403460335068
+
+TOPIC 1
+dull	0.18072364376228645
+boyall	0.17559292380459038
+blofeld	0.07076076211916617
+nicolao	0.0646396386624659
+amantio	0.06458196601474443
+skating	0.04893927369369892
+virgin	0.014181352062346598
+rocks	0.009799856741504047
+roberts	0.00681988046040535
+albania	0.005793807011627334
+
+TOPIC 2
+canoe	0.05407147605193145
+sprint	0.04382793888073334
+yang	0.03366775036916759
+snow	0.028983052459563955
+bombardment	0.01583312461348706
+serie	0.009015059841989782
+gabriel	0.008795081258760095
+greg	0.00860096344471091
+depth	0.008189573209244249
+strategic	0.007758795140456924
+
+TOPIC 3
+murphy	0.03626823486913953
+lugnuts	0.029263972703927044
+fear	0.02559193926851643
+judges	0.010144672744118396
+athlete	0.009662170704149348
+choir	0.009443455010376295
+jonathan	0.009027777097477692
+keith	0.008670605294086756
+donald	0.00829009011792433
+fred	0.008198109872203414
+
+TOPIC 4
+ruigeroeland	0.15638577295781744
+descent	0.031157785143823377
+cruz	0.012513166443539859
+foster	0.012022699329251376
+roberts	0.010373494095506114
+caribbean	0.009118978328644889
+hawaii	0.008313259054148727
+happened	0.00783667258891595
+constructively	0.0072344827903947214
+jonathan	0.0071346186018977934
+
+TOPIC 5
+matched	0.04272037266945743
+copper	0.042453618522839465
+stubs	0.039746463502523026
+pubdog	0.03939678347112746
+turner	0.03633140104809514
+geography	0.027727725627461917
+roberts	0.015118650679793162
+constructively	0.00802956968999608
+wizard	0.007568797805260378
+feed	0.007259546740015769
+
+TOPIC 6
+toby	0.23271963302302026
+groves	0.22845147321722364
+timestamp	0.08515284532944077
+constructively	0.0075282198010523625
+coibot	0.006687617383849402
+wizard	0.005591829427023591
+mapped	0.00520927676642665
+feed	0.005162110291788878
+republika	0.005144574068959621
+depth	0.0048667719616823325
+
+TOPIC 7
+starzynka	0.2171448071982975
+turner	0.04671427909834741
+blofeld	0.029688894510196226
+estonia	0.02273718608582671
+mitchell	0.013621240353036903
+happened	0.009853652328325942
+lugnuts	0.009125869107833263
+constructively	0.008392469413104677
+coibot	0.007529050440601714
+wizard	0.007131917251350235
+
+TOPIC 8
+synonym	0.07404387851558358
+mitchell	0.02445332357351351
+herbert	0.0121080460252828
+barry	0.00906352149860912
+jose	0.008741912488751545
+jonathan	0.008109033885046246
+wizard	0.00803192749770472
+oliver	0.007969733137311627
+caribbean	0.007896747084021253
+constructively	0.007734712218305284
+
+TOPIC 9
+leningrad	0.03916473410338348
+reservoir	0.03493892856855889
+wang	0.03256740110149098
+wright	0.031703480259588676
+parker	0.0247817899044318
+vladimir	0.024558397825580235
+barry	0.023414477644057158
+ivan	0.021583083782046056
+craig	0.020487656289771183
+tigers	0.019762598107998585
+
+Terms found in all topics: 
+snow: 1
+ganeshbot: 1
+starzynka: 1
+keith: 1
+toby: 1
+vladimir: 1
+mapped: 1
+nicolao: 1
+donald: 1
+greg: 1
+gabriel: 1
+parker: 1
+timestamp: 1
+fred: 1
+copper: 1
+tigers: 1
+wright: 1
+craig: 1
+matched: 1
+canoe: 1
+groves: 1
+virgin: 1
+boyall: 1
+amantio: 1
+ruigeroeland: 1
+cruz: 1
+synonym: 1
+sprint: 1
+murphy: 1
+strategic: 1
+yang: 1
+geography: 1
+bombardment: 1
+rocks: 1
+herbert: 1
+jose: 1
+ivan: 1
+estonia: 1
+tech: 1
+pubdog: 1
+rico: 1
+dull: 1
+oliver: 1
+albania: 1
+judges: 1
+foster: 1
+reservoir: 1
+descent: 1
+athlete: 1
+stubs: 1
+fear: 1
+hawaii: 1
+skating: 1
+leningrad: 1
+wang: 1
+choir: 2
+mitchell: 2
+turner: 2
+happened: 2
+republika: 2
+barry: 2
+serie: 2
+depth: 2
+caribbean: 2
+lugnuts: 2
+blofeld: 2
+roberts: 3
+coibot: 3
+feed: 3
+jonathan: 3
+wizard: 5
+constructively: 6
+The word 'constructively' appeared in 6 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 80 s, completed May 8, 2016 11:46:35 PM[0m

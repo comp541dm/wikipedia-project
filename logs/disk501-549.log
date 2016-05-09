@@ -1,0 +1,211 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,}.txt[0m
+
+Corpus summary:
+	 Training set size: 296755 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 195605 tokens
+	 Preprocessing time: 51.325177 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 21.606186 sec
+	 Training data average log likelihood: -6.568666495406429
+
+10 topics:
+TOPIC 0
+nevada	0.018753575353756977
+episcopal	0.01591100335655645
+skating	0.013635209480841178
+happened	0.01187523093641441
+architectural	0.009653682126262093
+concrete	0.009187042673730049
+rico	0.009030386131322487
+archives	0.008510223102363126
+artistic	0.008372737343115905
+wizard	0.008357669111433423
+
+TOPIC 1
+kategori	0.17463889671780336
+kyle	0.0637781335264857
+encyclopaedia	0.05477050147927302
+wikisource	0.046634669188040975
+neoregelia	0.02786131284641787
+stoke	0.013511192616583212
+organic	0.006848528656237832
+wizard	0.006316834089953273
+tied	0.0060239121335456895
+nigeria	0.0054458304081267525
+
+TOPIC 2
+ruigeroeland	0.13047573116431735
+nicolao	0.11216065288132669
+amantio	0.11195206521626856
+commonchemistry	0.09361446494395483
+chemspiderid	0.05379741340735379
+smiles	0.05351887538580536
+pubchem	0.05166687548807181
+inchi	0.051453796556305324
+verified	0.04988946033708459
+addindex	0.045159323113669575
+
+TOPIC 3
+timestamp	0.0976195376232474
+lang	0.07462108909403592
+oldid	0.06546237990250546
+namespace	0.060437058994528996
+pagename	0.05898395372774864
+editid	0.058788747803502836
+revid	0.058758738998775706
+wikidomain	0.058758046205848485
+indexedlink	0.058176862335660696
+linkwatcherlinklogin	0.04995921397840546
+
+TOPIC 4
+unified	0.10177203770272256
+joshua	0.08740244731969798
+glawson	0.06724678371939544
+syllable	0.044190326050527286
+postal	0.007826945663196841
+wizard	0.00760158828823661
+eclipse	0.007177503971446975
+contribute	0.007041114995032304
+revival	0.005836293139823277
+collaboration	0.00582175802793872
+
+TOPIC 5
+archive	0.12799943277275017
+earthquake	0.016442401842621447
+rico	0.008494766710518922
+archives	0.008331571663559065
+abuse	0.008106547634649255
+wizard	0.008038556568962043
+architectural	0.007288634037947386
+eclipse	0.0071561433554850895
+americas	0.007056965167305452
+contribute	0.006975293298076507
+
+TOPIC 6
+starzynka	0.17439338238409618
+visa	0.02643410000906028
+skating	0.020881311176861515
+earthquake	0.017826273333451673
+ranking	0.01330994436336396
+tech	0.010170407416539838
+eurovision	0.009928416243980174
+pedro	0.009669728268088054
+rico	0.007768715245616973
+nigeria	0.007531686411998636
+
+TOPIC 7
+choir	0.010179115429539037
+stoke	0.009569622126624463
+eclipse	0.009273145235247476
+wizard	0.009223364584189816
+contribute	0.008786251218204786
+arranged	0.008476918477018045
+artistic	0.00827451849610084
+false	0.008244625962230303
+architectural	0.008138024987425708
+vessel	0.008029677283298712
+
+TOPIC 8
+chemspiderid	0.06467362723995239
+pupils	0.042711972232340786
+casno	0.03344182855525013
+addindex	0.031175471774349692
+apply	0.01547848832239278
+visa	0.015101866611963766
+credits	0.014992114702844112
+additionally	0.012832570471898107
+percentage	0.012076280156129993
+happened	0.012038857682428001
+
+TOPIC 9
+encyclopaedia	0.08943933746249175
+wikisource	0.06668561540016872
+geregen	0.06546038582788823
+bromels	0.04380691139921726
+stoke	0.03655118495659556
+razowski	0.023763941311251334
+divisin	0.022706662276035527
+neoregelia	0.016314790696006057
+orgmapzones	0.013434904194249104
+tortricidae	0.008233646993777826
+
+Terms found in all topics: 
+ranking: 1
+postal: 1
+starzynka: 1
+percentage: 1
+vessel: 1
+false: 1
+nicolao: 1
+revival: 1
+collaboration: 1
+indexedlink: 1
+eurovision: 1
+geregen: 1
+timestamp: 1
+abuse: 1
+tortricidae: 1
+casno: 1
+choir: 1
+oldid: 1
+additionally: 1
+linkwatcherlinklogin: 1
+nevada: 1
+kyle: 1
+credits: 1
+razowski: 1
+syllable: 1
+editid: 1
+amantio: 1
+ruigeroeland: 1
+pupils: 1
+episcopal: 1
+unified: 1
+organic: 1
+commonchemistry: 1
+orgmapzones: 1
+tied: 1
+apply: 1
+inchi: 1
+pedro: 1
+kategori: 1
+pagename: 1
+smiles: 1
+concrete: 1
+tech: 1
+pubchem: 1
+divisin: 1
+americas: 1
+bromels: 1
+lang: 1
+glawson: 1
+joshua: 1
+wikidomain: 1
+archive: 1
+verified: 1
+arranged: 1
+namespace: 1
+revid: 1
+archives: 2
+encyclopaedia: 2
+visa: 2
+artistic: 2
+happened: 2
+neoregelia: 2
+nigeria: 2
+earthquake: 2
+addindex: 2
+wikisource: 2
+skating: 2
+chemspiderid: 2
+eclipse: 3
+contribute: 3
+rico: 3
+architectural: 3
+stoke: 3
+wizard: 5
+[0m[[32msuccess[0m] [0mTotal time: 78 s, completed May 8, 2016 11:45:11 PM[0m

@@ -1,0 +1,214 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{801,802,803,804,805,806,807,808,809,810,811,812,813,814,815,816,817,818,819,820,821,822,823,824,825,826,827,828,829,830,831,832,833,834,835,836,837,838,839,840,841,842,843,844,845,846,847,848,849,}.txt[0m
+
+Corpus summary:
+	 Training set size: 384419 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 215067 tokens
+	 Preprocessing time: 51.589378 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 22.379661 sec
+	 Training data average log likelihood: -5.561650522799883
+
+10 topics:
+TOPIC 0
+amusxpjcmclymontcoming	0.12879217936872675
+musicstreamus	0.07614493030500569
+regulations	0.07402497094186443
+temporary	0.07154238065972437
+amendment	0.06644913628917021
+prohibition	0.04020833005224364
+trunk	0.040045217482119644
+commonscat	0.03282775812034555
+qualification	0.03102680836819145
+benefits	0.005399815762183881
+
+TOPIC 1
+depth	0.01372438717232873
+wang	0.012059777594697113
+benjamin	0.00989149797370326
+judges	0.009746539611902468
+genetic	0.009226129714042595
+arctiidae	0.008950474899179979
+collaboration	0.00841753565247316
+automatic	0.008352757962658185
+sultan	0.008346232655759154
+partners	0.00822606183981192
+
+TOPIC 2
+penis	0.0675586074786475
+yang	0.06606757039497188
+derp	0.05781041192544413
+chadic	0.05297752341193174
+arabic	0.028849039476184297
+anchor	0.02571595324286023
+heading	0.02399144676155175
+sandbox	0.023925835476527966
+taiwan	0.02291342731643195
+nigeria	0.008594887462020393
+
+TOPIC 3
+yaranaika	0.16538437318417698
+ready	0.15352148934987336
+budder	0.1481209120698289
+archive	0.05396151849195535
+monthly	0.00836670168850786
+arctiidae	0.006352613961062891
+gauge	0.005962378754324121
+runner	0.005206325486097519
+automatic	0.004961969093825366
+module	0.004728468320300461
+
+TOPIC 4
+highlights	0.19887293348044618
+nebula	0.19027199813174095
+hubble	0.189443940326817
+proplyd	0.18752446781532472
+telescopeorion	0.18742998257319082
+arctiidae	9.988015399055603E-4
+automatic	6.47832203358283E-4
+tortricidae	6.303956551021663E-4
+invitation	5.722717950434357E-4
+kurdistan	5.203985294234346E-4
+
+TOPIC 5
+uploaddesc	0.06161609097827878
+default	0.03627903496796198
+geographorguk	0.031047892530268587
+episcopal	0.02239020569010735
+herbert	0.016184524574854527
+nigeria	0.0117914652591765
+kenya	0.011259769183667378
+nicholas	0.01101023540492218
+false	0.00979874317671669
+tech	0.00942780272077958
+
+TOPIC 6
+herobrine	0.12438143556123125
+iranian	0.054426033706298414
+ballet	0.027293183598793916
+advertising	0.021372899240346133
+yang	0.014891763857657128
+kosovo	0.012790467420814015
+sultan	0.012379065774763632
+concrete	0.010794736425011813
+para	0.008594453501780603
+shah	0.007964200525114732
+
+TOPIC 7
+arctiidae	0.015326153714886718
+automatic	0.011263862283483155
+hook	0.010138079706903617
+invitation	0.010078298357881123
+tortricidae	0.009845091757193052
+youtube	0.009450662091351848
+module	0.009346200059034616
+incumbent	0.009141139363426748
+collaboration	0.00907340715057688
+byelection	0.008852418491474801
+
+TOPIC 8
+wikivoyage	0.37279626915425795
+simpledata	0.1366464098764765
+linestyle	0.044264982841708135
+ffffcolor	0.04221928773287322
+linestring	0.033406228285876916
+placemark	0.031163981957986867
+icon	0.009805605514194812
+arctiidae	0.004945123239876727
+hook	0.0036677474641642386
+automatic	0.0035884797653469814
+
+TOPIC 9
+lolzerzs	0.08977134696962223
+placemark	0.03666216148441304
+bangladeshi	0.036386875000654295
+runner	0.03358278986237395
+linestring	0.03071822048685325
+gauge	0.019563341762262598
+topics	0.01666399643907579
+geographorguk	0.011396460076635567
+ballet	0.010867815264248524
+episcopal	0.010748336836493406
+
+Terms found in all topics: 
+taiwan: 1
+anchor: 1
+heading: 1
+herobrine: 1
+false: 1
+highlights: 1
+lolzerzs: 1
+topics: 1
+benefits: 1
+amusxpjcmclymontcoming: 1
+nebula: 1
+kosovo: 1
+qualification: 1
+para: 1
+youtube: 1
+regulations: 1
+commonscat: 1
+linestyle: 1
+icon: 1
+ffffcolor: 1
+ready: 1
+chadic: 1
+temporary: 1
+kenya: 1
+amendment: 1
+penis: 1
+prohibition: 1
+musicstreamus: 1
+byelection: 1
+iranian: 1
+shah: 1
+nicholas: 1
+simpledata: 1
+budder: 1
+hubble: 1
+partners: 1
+telescopeorion: 1
+derp: 1
+herbert: 1
+wikivoyage: 1
+default: 1
+sandbox: 1
+arabic: 1
+concrete: 1
+tech: 1
+uploaddesc: 1
+judges: 1
+depth: 1
+yaranaika: 1
+benjamin: 1
+bangladeshi: 1
+trunk: 1
+genetic: 1
+incumbent: 1
+proplyd: 1
+archive: 1
+monthly: 1
+kurdistan: 1
+wang: 1
+advertising: 1
+module: 2
+collaboration: 2
+invitation: 2
+tortricidae: 2
+ballet: 2
+runner: 2
+episcopal: 2
+linestring: 2
+yang: 2
+placemark: 2
+geographorguk: 2
+hook: 2
+gauge: 2
+nigeria: 2
+sultan: 2
+automatic: 5
+arctiidae: 5
+[0m[[32msuccess[0m] [0mTotal time: 79 s, completed May 8, 2016 11:53:28 PM[0m

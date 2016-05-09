@@ -1,0 +1,187 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,}.txt[0m
+
+Corpus summary:
+	 Training set size: 534293 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 580319 tokens
+	 Preprocessing time: 110.587239 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 33.30267 sec
+	 Training data average log likelihood: -8.368998780626802
+
+10 topics:
+TOPIC 0
+rabbi	0.02632487039607433
+horses	0.007702536588759601
+birmingham	0.007461912036396738
+speak	0.006987711332035615
+ride	0.006713914441962102
+missions	0.006414055278113466
+unless	0.006375094012264507
+suggest	0.0063122503349225005
+virgin	0.006311926674332544
+returns	0.006219572836764247
+
+TOPIC 1
+desu	0.10229989210827128
+skipped	0.05062768432612211
+plugin	0.026392580618661152
+stopped	0.007564461962820494
+speak	0.005944329990134702
+villa	0.005722501171267121
+suggest	0.0055441718723840995
+archive	0.005484095405233182
+unless	0.005482901492682025
+terminus	0.005470483498432534
+
+TOPIC 2
+infobox	0.05257510182063946
+canton	0.006954852130173416
+dragons	0.006843304644740041
+suit	0.006809181042341892
+speak	0.006737999720446327
+ride	0.006501219882360215
+terminus	0.006337621301695446
+horses	0.006318094624455847
+unless	0.006228315229087816
+buffalo	0.00617237017548036
+
+TOPIC 3
+carter	0.041887485639596926
+ride	0.007556234108411177
+speak	0.007024114400632358
+cork	0.00668017800364759
+canton	0.006622254077435713
+terminus	0.006186765702680364
+merger	0.006175670186948312
+suggest	0.00615296901400284
+unless	0.006135719944315691
+credits	0.006038848405377085
+
+TOPIC 4
+canton	0.00776163828414785
+villa	0.0075321703136267135
+speak	0.007207885276525457
+rabbi	0.0071403408011714966
+birmingham	0.006875996341514104
+ride	0.0068737142883091564
+charlie	0.006617720322084392
+terminus	0.006562479729530354
+suggest	0.006463979592808394
+unless	0.006348126326982502
+
+TOPIC 5
+plugin	0.05801396886570855
+priority	0.057903335221903184
+kingbotkp	0.05511083558124741
+birmingham	0.006004820211808559
+stopped	0.005989765737757914
+charlie	0.0058784024968202685
+terminus	0.005729428719185409
+speak	0.0056798171187064875
+suggest	0.0054640185775064925
+unless	0.0054064378413225655
+
+TOPIC 6
+antichrist	0.16632576952184497
+speak	0.0060563019479703455
+merge	0.006046498110000295
+villa	0.005754711324855735
+dragons	0.005728468358705708
+suggest	0.005699683976926873
+unless	0.005662683781199115
+ride	0.005605702602020199
+terminus	0.0055003024563196464
+maybe	0.005450902969136563
+
+TOPIC 7
+comments	0.036940023447861216
+horses	0.00790836875041213
+merger	0.007786080367020084
+marvel	0.007079633206723841
+speak	0.00678781105714493
+collins	0.006481957155781061
+canton	0.006238600262484211
+suit	0.006220850933684238
+suggest	0.006207828783147403
+ride	0.00619857218454888
+
+TOPIC 8
+regulations	0.11095032974915069
+amendment	0.09261985181652642
+charges	0.021109124375483686
+temporary	0.008208942734235565
+experimental	0.007213524662125075
+merger	0.007174341687948728
+marks	0.006588090872234684
+penalty	0.00633861182321365
+trading	0.005968680924027127
+cork	0.005904622044686186
+
+TOPIC 9
+editsysop	0.05271817700613508
+movesysop	0.05271817700613508
+comments	0.019902512030125198
+cork	0.00645657136973325
+villa	0.006179271272968166
+speak	0.00605364778032157
+merge	0.0059980604214212125
+suggest	0.005933735755543925
+terminus	0.005930334379173112
+unless	0.005829631851570629
+
+Terms found in all topics: 
+experimental: 1
+maybe: 1
+priority: 1
+regulations: 1
+kingbotkp: 1
+marks: 1
+temporary: 1
+desu: 1
+credits: 1
+amendment: 1
+skipped: 1
+virgin: 1
+infobox: 1
+collins: 1
+charges: 1
+trading: 1
+antichrist: 1
+returns: 1
+movesysop: 1
+penalty: 1
+editsysop: 1
+missions: 1
+carter: 1
+buffalo: 1
+archive: 1
+marvel: 1
+plugin: 2
+charlie: 2
+rabbi: 2
+suit: 2
+merge: 2
+stopped: 2
+dragons: 2
+comments: 2
+birmingham: 3
+merger: 3
+horses: 3
+cork: 3
+villa: 4
+canton: 4
+ride: 6
+terminus: 7
+suggest: 8
+unless: 8
+speak: 9
+The word 'ride' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'terminus' appeared in 7 topics: adding to data/stop_words.txt.
+The word 'suggest' appeared in 8 topics: adding to data/stop_words.txt.
+The word 'unless' appeared in 8 topics: adding to data/stop_words.txt.
+The word 'speak' appeared in 9 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 149 s, completed May 8, 2016 11:34:05 PM[0m

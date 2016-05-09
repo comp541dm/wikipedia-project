@@ -1,0 +1,193 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,}.txt[0m
+
+Corpus summary:
+	 Training set size: 461346 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 371088 tokens
+	 Preprocessing time: 78.431157 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 26.689845 sec
+	 Training data average log likelihood: -7.113170719395271
+
+10 topics:
+TOPIC 0
+sentences	0.35514592154220326
+bull	0.06946446742438342
+archdiocese	0.039790405070846344
+birmingham	0.004802712114488451
+uploading	0.0043894654386704415
+pitchers	0.004336076874495903
+playerscategory	0.00431932736575736
+tributary	0.00425208961215403
+batting	0.004052998222456363
+caught	0.003974125519705103
+
+TOPIC 1
+developers	0.22535624169516383
+matched	0.20371144708744732
+pointstotal	0.042118445332303155
+extinct	0.040866290014449386
+pat	0.010926436110121292
+uploading	0.004658213953097067
+playerscategory	0.004457446146998278
+survived	0.004202562437064449
+tributary	0.0038593630366117655
+caught	0.0037759042993668695
+
+TOPIC 2
+warner	0.01878953319352318
+animation	0.01796460455736969
+uploading	0.008424959594911468
+pitchers	0.008131093746143151
+tributary	0.00805584364001645
+keith	0.00782747645578876
+batting	0.007722230807699471
+playerscategory	0.0073971943588344545
+caught	0.007215619483235347
+birmingham	0.007148000622241593
+
+TOPIC 3
+desu	0.12242299650622866
+imagen	0.040500629151540124
+pitchers	0.00821750799747709
+batting	0.007973407369281893
+innings	0.007635817944765674
+uploading	0.00714398311720861
+tributary	0.007022594665532285
+playerscategory	0.00668697279986782
+caught	0.006338303773425654
+bats	0.006299967576477343
+
+TOPIC 4
+skipped	0.12104947851404063
+plugin	0.07315603256464165
+kingbotk	0.04259884003336884
+cincinnati	0.007859933159579502
+uploading	0.00671945705560906
+pitchers	0.006502835272387574
+missions	0.006309410749696072
+playerscategory	0.006222369687395016
+batting	0.0061532220478071374
+tributary	0.0060555041276307885
+
+TOPIC 5
+virus	0.012326629499489808
+volunteer	0.009363220923149985
+pitchers	0.009295135888614758
+batting	0.008971529450509028
+wright	0.008798630797138213
+plugin	0.008784969453501872
+uploading	0.008329044479978153
+tributary	0.0079864047675824
+playerscategory	0.007949883745129116
+innings	0.007603693421764292
+
+TOPIC 6
+userreport	0.6774110656386138
+afil	0.058080214745473806
+contribs	0.05719408887427124
+uploading	0.002175006979791127
+romanian	0.0020871946251806543
+playerscategory	0.002043856104936707
+problemthank	0.001664683569747349
+criteria	0.0016596947539269697
+withimage	0.0016201329956123088
+virus	0.0015894961111291874
+
+TOPIC 7
+archive	0.03188433134760289
+cincinnati	0.02380440892388083
+warner	0.012383512063631944
+animation	0.011841036214769264
+pitchers	0.010695725317161401
+batting	0.009953022868192846
+derby	0.009434968222768843
+innings	0.0091185542689072
+pat	0.00885698351800475
+cork	0.008781057429927741
+
+TOPIC 8
+operas	0.03504829374013434
+pitchers	0.010688033944169974
+batting	0.01045662382886074
+innings	0.008333808085980858
+tributary	0.008214722942214559
+uploading	0.00799198077673704
+tigers	0.007698481628446469
+bats	0.007684176327031016
+caught	0.0069777747698305925
+cardinals	0.00694694084175792
+
+TOPIC 9
+userreport	0.3372751722805895
+polbot	0.27634990725092706
+middot	0.06430569902302057
+cuba	0.006455206474882014
+afghanistan	0.004754997665294355
+volunteer	0.0037379195996950186
+missions	0.0035515538036675833
+wright	0.003461923849474819
+congo	0.0031402857746623517
+nicholas	0.003087280662325267
+
+Terms found in all topics: 
+keith: 1
+sentences: 1
+afil: 1
+withimage: 1
+cuba: 1
+contribs: 1
+congo: 1
+criteria: 1
+tigers: 1
+desu: 1
+polbot: 1
+matched: 1
+skipped: 1
+extinct: 1
+operas: 1
+pointstotal: 1
+nicholas: 1
+romanian: 1
+derby: 1
+archdiocese: 1
+imagen: 1
+middot: 1
+problemthank: 1
+developers: 1
+survived: 1
+cardinals: 1
+kingbotk: 1
+archive: 1
+afghanistan: 1
+bull: 1
+cork: 1
+plugin: 2
+warner: 2
+userreport: 2
+birmingham: 2
+wright: 2
+virus: 2
+animation: 2
+pat: 2
+missions: 2
+volunteer: 2
+bats: 2
+cincinnati: 2
+innings: 4
+caught: 5
+playerscategory: 7
+tributary: 7
+pitchers: 7
+batting: 7
+uploading: 8
+The word 'pat' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'playerscategory' appeared in 7 topics: adding to data/stop_words.txt.
+The word 'tributary' appeared in 7 topics: adding to data/stop_words.txt.
+The word 'pitchers' appeared in 7 topics: adding to data/stop_words.txt.
+The word 'batting' appeared in 7 topics: adding to data/stop_words.txt.
+The word 'uploading' appeared in 8 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 110 s, completed May 8, 2016 11:37:56 PM[0m

@@ -1,0 +1,218 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{851,852,853,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874,875,876,877,878,879,880,881,882,883,884,885,886,887,888,889,890,891,892,893,894,895,896,897,898,899,}.txt[0m
+
+Corpus summary:
+	 Training set size: 417992 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 263298 tokens
+	 Preprocessing time: 56.141334 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 22.040634 sec
+	 Training data average log likelihood: -6.176523392580985
+
+10 topics:
+TOPIC 0
+hillsborough	0.071021974914327
+jarvis	0.056525738437672154
+aeron	0.05262303738941923
+breuning	0.04321391699916778
+bibliography	0.02809294153109432
+passage	0.016946039578396327
+clothing	0.014620149484314946
+sculpture	0.014519160041160798
+cerambycidae	0.013252714323619677
+para	0.012401941047206657
+
+TOPIC 1
+animalia	0.11437093622907049
+arthropoda	0.04914498936677926
+cloud	0.03801420850515548
+computing	0.02799551292460613
+false	0.021784922313270734
+placemark	0.017142527516621958
+linestring	0.014966474704101625
+linestyle	0.014556701559482304
+ffffcolor	0.01361804941982711
+museums	0.01295691478592054
+
+TOPIC 2
+bath	0.08067602978961758
+creator	0.0735296426308266
+linestring	0.061922592197453157
+linestyle	0.05466296431202078
+placemark	0.05384319361022879
+ffffcolor	0.05113922553843307
+relativetogroundaltitudemode	0.043711983899327136
+polystyle	0.04306788427241816
+sauna	0.03419677861725691
+beauty	0.03181703212688573
+
+TOPIC 3
+yang	0.07014016057296273
+redlink	0.06773683638107639
+cerambycidae	0.024686613414941754
+bezark	0.021280618697295025
+crambidae	0.018367378017425072
+cinema	0.011722037910315217
+youtube	0.011719258746008333
+malayalam	0.01154388806982898
+contribution	0.011139293142823962
+bachelor	0.011070380248828083
+
+TOPIC 4
+sucks	0.125002828874562
+phil	0.08393261586513806
+rats	0.06962509841903053
+penis	0.06557245261200711
+willies	0.062095781205647765
+pissscrew	0.06197003513632861
+shitbagsyayayayayayayayayayayayafuck	0.06197003513632193
+allphil	0.06195202058827709
+stinks	0.06036606719450458
+estero	0.04809750688533295
+
+TOPIC 5
+crust	0.045430727729613686
+sand	0.03722127330436942
+ozone	0.03630226388530282
+rises	0.03585004998691297
+oceans	0.02989595720571924
+orbits	0.029419584097074795
+vilafranca	0.028680799369183364
+mantle	0.027642114104948726
+gases	0.02736449745788067
+orbit	0.027119026922051395
+
+TOPIC 6
+kmvkmvklkvbmkvkgtfopkkhgmkmvbkcm	0.16260349939324495
+cerambycidae	0.015088877169734203
+bezark	0.013062122237215293
+nigeria	0.011648230330716077
+crambidae	0.011164531901600406
+youtube	0.010962805252049023
+kumar	0.010806578017226417
+liga	0.010779046047536257
+syrian	0.010231143180040472
+cinema	0.010172421591893865
+
+TOPIC 7
+taco	0.2721206024531708
+nile	0.03500111730029836
+geography	0.02463196617821712
+lowest	0.02148175280610019
+rises	0.018037252134359423
+false	0.014918594475970314
+plains	0.013554799112721842
+tool	0.013292826082413086
+ranges	0.013102358197506561
+crust	0.012841536443485652
+
+TOPIC 8
+stinks	0.30861956603278984
+shit	0.15771567304790313
+piss	0.15491968617707624
+ponyo	0.15458455715753794
+amortias	0.15385971540097843
+llama	0.027372590243194262
+cerambycidae	0.0014282979843121932
+bezark	0.0011975764236642188
+crambidae	0.0010792231386023863
+malayalam	6.477248185203217E-4
+
+TOPIC 9
+depth	0.052824168538261586
+earthquake	0.04993155937539988
+simpledata	0.04911419123341857
+magnitude	0.04378784098902372
+quae	0.04055396571539674
+esse	0.03476269036356048
+mara	0.025414837613650477
+dangerous	0.011704160713704137
+sculpture	0.011561728644267225
+galaxy	0.011517878414287927
+
+Terms found in all topics: 
+amortias: 1
+dangerous: 1
+sand: 1
+rats: 1
+para: 1
+lowest: 1
+kmvkmvklkvbmkvkgtfopkkhgmkmvbkcm: 1
+bachelor: 1
+tool: 1
+liga: 1
+pissscrew: 1
+sucks: 1
+animalia: 1
+plains: 1
+taco: 1
+gases: 1
+computing: 1
+galaxy: 1
+hillsborough: 1
+penis: 1
+shitbagsyayayayayayayayayayayayafuck: 1
+creator: 1
+jarvis: 1
+nile: 1
+mara: 1
+redlink: 1
+beauty: 1
+esse: 1
+simpledata: 1
+willies: 1
+sauna: 1
+vilafranca: 1
+polystyle: 1
+cloud: 1
+yang: 1
+passage: 1
+geography: 1
+clothing: 1
+allphil: 1
+phil: 1
+mantle: 1
+museums: 1
+quae: 1
+orbit: 1
+contribution: 1
+ozone: 1
+llama: 1
+estero: 1
+depth: 1
+shit: 1
+breuning: 1
+nigeria: 1
+relativetogroundaltitudemode: 1
+arthropoda: 1
+orbits: 1
+ranges: 1
+bibliography: 1
+aeron: 1
+syrian: 1
+ponyo: 1
+earthquake: 1
+magnitude: 1
+kumar: 1
+oceans: 1
+bath: 1
+piss: 1
+false: 2
+rises: 2
+youtube: 2
+linestyle: 2
+ffffcolor: 2
+malayalam: 2
+crust: 2
+linestring: 2
+stinks: 2
+placemark: 2
+cinema: 2
+sculpture: 2
+bezark: 3
+crambidae: 3
+cerambycidae: 4
+[0m[[32msuccess[0m] [0mTotal time: 83 s, completed May 8, 2016 11:54:55 PM[0m

@@ -1,0 +1,204 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,}.txt[0m
+
+Corpus summary:
+	 Training set size: 348080 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 248498 tokens
+	 Preprocessing time: 59.816269 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 23.679407 sec
+	 Training data average log likelihood: -7.033327174258034
+
+10 topics:
+TOPIC 0
+kotbot	0.07391683395854988
+bandarira	0.06279986137571433
+boxes	0.03749179244470583
+referee	0.02056345657208041
+linklinkwatcher	0.013896372402891337
+spamming	0.013883226018530138
+linksbelow	0.013785172252559277
+blacklistreportscoibot	0.013394013935573454
+jerusalem	0.00852979758405309
+pcupdate	0.007178578416583061
+
+TOPIC 1
+carlossuarez	0.04951302810458989
+mario	0.03421521116582819
+taluk	0.015219187204980259
+pupils	0.014069052483325054
+practices	0.012679772548292854
+spamming	0.012421831209938868
+linksbelow	0.012255447383241285
+linklinkwatcher	0.012250882455459565
+blacklistreportscoibot	0.01188336496293904
+charlie	0.010046508023406543
+
+TOPIC 2
+blofeld	0.0903485604614532
+scotia	0.037252656851962614
+exercise	0.03230659510155064
+files	0.027129965318068112
+patient	0.025124514801182895
+buffalo	0.018096590958668154
+airfield	0.017557170987332407
+involving	0.016138330657272718
+spamming	0.010597983252820964
+linklinkwatcher	0.010379264449030689
+
+TOPIC 3
+mahogany	0.1743297279475232
+linksbelow	0.017905669012376255
+linklinkwatcher	0.017777231497174015
+spamming	0.017696597465539105
+blacklistreportscoibot	0.017175006755748984
+pcupdate	0.009667348413907933
+brick	0.00913544263916087
+taluk	0.008937209622491322
+nadu	0.008811295238179043
+fungi	0.0081843193949561
+
+TOPIC 4
+cooli	0.20619315326903787
+bugboy	0.06819314082752763
+sasata	0.05492895118003728
+linksbelow	0.01437779604624525
+linklinkwatcher	0.014330632720046947
+spamming	0.014266169097957592
+blacklistreportscoibot	0.013857064886295626
+fungi	0.009152759637646163
+pcupdate	0.0077637375652352455
+nadu	0.006619187498022747
+
+TOPIC 5
+spam	0.14738918856191274
+squishypig	0.05653081033660757
+marcus	0.04206679180044537
+spamming	0.018631903990437765
+linksbelow	0.01862694375705254
+linklinkwatcher	0.018558130412777762
+blacklistreportscoibot	0.01787796594683119
+pcupdate	0.010787575311475936
+fungi	0.009293030245450314
+nadu	0.008442272677694675
+
+TOPIC 6
+spam	0.29895715251640315
+albertherring	0.10864572238430527
+nicolao	0.07579457718484606
+amantio	0.07577993858394251
+ruigeroeland	0.06748805241986827
+facing	0.05020490525649316
+ecnumber	0.0437185873016335
+goname	0.04370200109760696
+bricks	0.03440648960632118
+brick	0.010229689172818026
+
+TOPIC 7
+archive	0.2784514967437924
+archivedattempting	0.06358493385467641
+removedhas	0.0613222088263397
+successattempting	0.058074625552478734
+pipes	0.050377966975016994
+referencewas	0.03843787679623674
+successmatchedattempting	0.03538757684744824
+successretrieving	0.0351116986598585
+onretrieving	0.0338826688870228
+archivedretrieving	0.03207450674548794
+
+TOPIC 8
+geregen	0.059901707296610755
+millercu	0.038946399570676804
+divisin	0.015602569773366477
+topics	0.015362932462110852
+linksbelow	0.012719258553903365
+spamming	0.012687124297082642
+linklinkwatcher	0.012668520263301414
+blacklistreportscoibot	0.012266979760615495
+ivan	0.010672264992917251
+abuse	0.01027925580674844
+
+TOPIC 9
+archive	0.2468438293520877
+archivedattempting	0.10204620039784465
+archivedretrieving	0.07200216197735669
+successmatchedattempting	0.05098152353322148
+updatedarchive	0.03883894206756877
+waiting	0.03292679659900584
+updating	0.029150916271637007
+updatedwriting	0.02913043291430696
+overloaded	0.024956355518872705
+removedhas	0.01944805638081957
+
+Terms found in all topics: 
+mario: 1
+overloaded: 1
+nicolao: 1
+topics: 1
+ecnumber: 1
+geregen: 1
+practices: 1
+millercu: 1
+facing: 1
+abuse: 1
+kotbot: 1
+pipes: 1
+mahogany: 1
+referee: 1
+jerusalem: 1
+charlie: 1
+albertherring: 1
+airfield: 1
+amantio: 1
+ruigeroeland: 1
+files: 1
+pupils: 1
+successretrieving: 1
+sasata: 1
+boxes: 1
+cooli: 1
+referencewas: 1
+bugboy: 1
+goname: 1
+carlossuarez: 1
+ivan: 1
+updatedarchive: 1
+involving: 1
+squishypig: 1
+successattempting: 1
+divisin: 1
+marcus: 1
+waiting: 1
+bandarira: 1
+bricks: 1
+updating: 1
+buffalo: 1
+onretrieving: 1
+scotia: 1
+exercise: 1
+updatedwriting: 1
+patient: 1
+blofeld: 1
+brick: 2
+removedhas: 2
+archivedattempting: 2
+taluk: 2
+archivedretrieving: 2
+successmatchedattempting: 2
+spam: 2
+archive: 2
+fungi: 3
+nadu: 3
+pcupdate: 4
+blacklistreportscoibot: 6
+linksbelow: 6
+linklinkwatcher: 7
+spamming: 7
+The word 'blacklistreportscoibot' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'linksbelow' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'linklinkwatcher' appeared in 7 topics: adding to data/stop_words.txt.
+The word 'spamming' appeared in 7 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 88 s, completed May 8, 2016 11:43:50 PM[0m

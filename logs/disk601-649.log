@@ -1,0 +1,201 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,}.txt[0m
+
+Corpus summary:
+	 Training set size: 317384 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 215570 tokens
+	 Preprocessing time: 50.558787 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 21.614384 sec
+	 Training data average log likelihood: -6.042045268440402
+
+10 topics:
+TOPIC 0
+subdistrict	0.04950443135295788
+britaly	0.0450344154327529
+albania	0.01213769996111616
+wang	0.011073924845257748
+sabha	0.010911225281512154
+wizard	0.009245439325336564
+trafficking	0.008758482280915861
+coibot	0.008207726009040904
+feed	0.007029211770994064
+coverage	0.006988420807382421
+
+TOPIC 1
+contribs	0.05012438687857818
+answer	0.03651919355809711
+afghanistan	0.031182875643117697
+earthquake	0.020198062038069436
+ambassador	0.01965447119369041
+injured	0.015404029061977083
+penalty	0.010861822304876208
+rollbacker	0.009474522755845902
+sysop	0.008764978421947869
+random	0.008027572132308673
+
+TOPIC 2
+horses	0.03304464704028312
+cole	0.016846238130484983
+injured	0.008979016167624632
+wizard	0.00883603597947464
+stages	0.00780690927741489
+coibot	0.007510121672701309
+technologies	0.007479022622018518
+phoenix	0.0072721916268801015
+coverage	0.007263771145112098
+feed	0.007159522399930186
+
+TOPIC 3
+coleophora	0.08476313961905439
+linnaeus	0.08097057313805928
+denis	0.08023670871743793
+hbner	0.05575896949995084
+zeller	0.04521623479402174
+xezbeth	0.04355077228457524
+wizard	0.006718064235919614
+larvae	0.006541969114977819
+qualification	0.006483665655612959
+coibot	0.0063649952041962676
+
+TOPIC 4
+skipped	0.1741227436459354
+mins	0.1726615362921872
+chzzbot	0.17086947512619252
+sandbot	0.17084190219096312
+coibot	0.005497097777092729
+wizard	0.005172444181787954
+refs	0.003685197190063113
+larvae	0.00332377629549214
+feed	0.0032438864943487647
+caught	0.0029189480392244945
+
+TOPIC 5
+truncated	0.08336625486142266
+processed	0.04107970818825698
+remainder	0.040372037494306345
+phrase	0.03853983800221772
+qualification	0.01890987095131056
+random	0.007741618717599631
+trafficking	0.007597775192805608
+para	0.007507174913678392
+fear	0.007503436957296515
+wizard	0.007106418725973931
+
+TOPIC 6
+rollbacker	0.018681021711450776
+sysop	0.015182856766771545
+stages	0.009600532357827677
+random	0.00909821744611581
+para	0.008883639690446983
+sabha	0.008760725712252707
+wizard	0.008541783637247833
+roberts	0.007671542852840026
+coibot	0.007520156201112314
+print	0.0073204055231479315
+
+TOPIC 7
+awesome	0.24371307458278352
+joel	0.07834380782033123
+middot	0.05212924727902405
+ambassador	0.011694327956320714
+rollbacker	0.008390102744921487
+contribs	0.007857394991417884
+wizard	0.0075359304966515946
+coibot	0.007126228729979051
+sysop	0.006730942169694055
+larvae	0.005639160154483712
+
+TOPIC 8
+viola	0.07286967601864741
+pubdog	0.06060593966754784
+violin	0.03156604034003167
+yang	0.0310409752432098
+trafficking	0.028324712282398978
+rounds	0.023300331801428133
+benjamin	0.009031845893206665
+albania	0.007937318232534888
+sarah	0.007298703131630362
+wizard	0.007063777533841776
+
+TOPIC 9
+inhibitor	0.1804660652454435
+ruigeroeland	0.08555621301619182
+blofeld	0.0439401059738788
+ballet	0.042397495324602075
+yang	0.01547539737523728
+wang	0.011351676258817412
+wizard	0.006633897324201939
+coibot	0.006472395760744416
+trafficking	0.0058938862169848555
+liga	0.005666279669288299
+
+Terms found in all topics: 
+sarah: 1
+mins: 1
+phoenix: 1
+chzzbot: 1
+remainder: 1
+xezbeth: 1
+ballet: 1
+liga: 1
+print: 1
+linnaeus: 1
+subdistrict: 1
+denis: 1
+awesome: 1
+phrase: 1
+roberts: 1
+skipped: 1
+zeller: 1
+joel: 1
+truncated: 1
+cole: 1
+viola: 1
+technologies: 1
+ruigeroeland: 1
+refs: 1
+rounds: 1
+caught: 1
+violin: 1
+hbner: 1
+sandbot: 1
+middot: 1
+coleophora: 1
+processed: 1
+horses: 1
+pubdog: 1
+answer: 1
+inhibitor: 1
+penalty: 1
+benjamin: 1
+earthquake: 1
+afghanistan: 1
+fear: 1
+britaly: 1
+blofeld: 1
+stages: 2
+sabha: 2
+qualification: 2
+para: 2
+contribs: 2
+coverage: 2
+injured: 2
+yang: 2
+albania: 2
+ambassador: 2
+wang: 2
+random: 3
+rollbacker: 3
+larvae: 3
+feed: 3
+sysop: 3
+trafficking: 4
+coibot: 7
+wizard: 9
+The word 'coibot' appeared in 7 topics: adding to data/stop_words.txt.
+The word 'wizard' appeared in 9 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 77 s, completed May 8, 2016 11:47:56 PM[0m

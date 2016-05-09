@@ -1,0 +1,202 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,}.txt[0m
+
+Corpus summary:
+	 Training set size: 354229 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 241962 tokens
+	 Preprocessing time: 57.680455 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 23.548379 sec
+	 Training data average log likelihood: -6.161517958666004
+
+10 topics:
+TOPIC 0
+hang	0.07901033228504271
+emos	0.0664052328996044
+tigers	0.01061795285080826
+tactical	0.009269542389747563
+wish	0.008544830011183082
+speedy	0.008487518679387058
+rico	0.0084524523112521
+cycling	0.008244253394014602
+guidelines	0.007965561108504505
+inclusion	0.007688132554619832
+
+TOPIC 1
+phumi	0.0950000320299166
+cambodiane	0.09373454805439016
+spacebaboy	0.04786631792496741
+khulna	0.03536535037097254
+bulgarian	0.008458532643201403
+taiwan	0.007793258736049112
+wish	0.007723087321341772
+speedy	0.007650634919809175
+guidelines	0.007380792185791949
+wright	0.00691351927879736
+
+TOPIC 2
+module	0.14742454285545945
+kotbot	0.11668197086925768
+deecolon	0.08871193425640406
+rajshahi	0.08195202695113478
+carlossuarez	0.07111355684635821
+infobox	0.008469000613429678
+khulna	0.006947121936968801
+gfdl	0.0060953553959548455
+wish	0.005616535391510159
+speedy	0.0050806181377331195
+
+TOPIC 3
+matched	0.27104452432299003
+stoop	0.11818795061013752
+kids	0.0996345525782157
+pointstotal	0.08376713767746521
+afraid	0.06972002421953241
+fleetrace	0.052218360346439674
+gfdl	0.003664607721491166
+wish	0.0033684125323534746
+speedy	0.0031429645308761137
+inclusion	0.0031013892495619904
+
+TOPIC 4
+timorse	0.12741258018258708
+middot	0.03043894264858468
+nrhp	0.020392899918975763
+craig	0.010360389465328987
+wright	0.009968958405850017
+speedy	0.00875221556425082
+wish	0.008630094607356274
+guidelines	0.007934984310941787
+criteria	0.007573282211036883
+inclusion	0.007253438363120671
+
+TOPIC 5
+middot	0.03378132308759151
+leeds	0.015184575871197219
+tigers	0.01446401216284418
+sweet	0.014219533642309047
+rico	0.009388389557685886
+congregation	0.009349368366386635
+archives	0.009321962481144933
+guidelines	0.009173298199454442
+barcelona	0.009092216486873438
+speedy	0.009076315693011917
+
+TOPIC 6
+chuck	0.09556451176035434
+norris	0.08376883795086736
+swampyank	0.035035302686292416
+lok	0.026695690728270396
+reporter	0.017480027142177005
+donald	0.007940055358986293
+benjamin	0.007371244126665759
+wish	0.007119708445867363
+speedy	0.007025852834347481
+guidelines	0.006486946427868715
+
+TOPIC 7
+territor	0.04845522884191173
+kongne	0.04699126091675382
+cycling	0.029693631530001766
+ballet	0.025226502809812666
+sandbox	0.013866177691782609
+speedy	0.008883306103336505
+wish	0.00867521691083501
+bulgarian	0.008275778949625242
+guidelines	0.00818355227798016
+inclusion	0.007834757949846465
+
+TOPIC 8
+nameless	0.050499173810367746
+mario	0.031647665827340986
+bomb	0.016840083755325266
+craig	0.014391538635829837
+swampyank	0.013357842565542032
+argentine	0.00913019235798346
+topics	0.00862098751172112
+wish	0.008561954552139157
+speedy	0.008460403323425009
+jonathan	0.008123940138513322
+
+TOPIC 9
+dhaka	0.16440080436616233
+alpha	0.04092820569259265
+cycling	0.010840513861330678
+keyboards	0.010316560182881277
+sweet	0.00867329484204501
+wish	0.008077944956302726
+speedy	0.00791873563878942
+guidelines	0.007859364172006594
+freestyle	0.006883461534578989
+inclusion	0.006819503829398703
+
+Terms found in all topics: 
+mario: 1
+taiwan: 1
+alpha: 1
+argentine: 1
+nrhp: 1
+spacebaboy: 1
+module: 1
+topics: 1
+keyboards: 1
+donald: 1
+timorse: 1
+emos: 1
+chuck: 1
+lok: 1
+reporter: 1
+dhaka: 1
+barcelona: 1
+kotbot: 1
+criteria: 1
+ballet: 1
+kongne: 1
+archives: 1
+tactical: 1
+deecolon: 1
+afraid: 1
+rajshahi: 1
+hang: 1
+matched: 1
+pointstotal: 1
+infobox: 1
+territor: 1
+cambodiane: 1
+stoop: 1
+phumi: 1
+carlossuarez: 1
+sandbox: 1
+fleetrace: 1
+congregation: 1
+kids: 1
+leeds: 1
+norris: 1
+jonathan: 1
+freestyle: 1
+benjamin: 1
+bomb: 1
+nameless: 1
+sweet: 2
+tigers: 2
+wright: 2
+craig: 2
+swampyank: 2
+middot: 2
+gfdl: 2
+rico: 2
+khulna: 2
+bulgarian: 2
+cycling: 3
+inclusion: 5
+guidelines: 7
+wish: 9
+speedy: 10
+The word 'lok' appeared in 1 topics: adding to data/stop_words.txt.
+The word 'guidelines' appeared in 7 topics: adding to data/stop_words.txt.
+The word 'wish' appeared in 9 topics: adding to data/stop_words.txt.
+The word 'speedy' appeared in 10 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 86 s, completed May 8, 2016 11:40:56 PM[0m

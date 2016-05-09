@@ -1,0 +1,824 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=6 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{seq -s, -t$'\b' 1 50}.txt[0m
+java.lang.RuntimeException: Nonzero exit code: 1
+	at scala.sys.package$.error(package.scala:27)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:runMain[0m for the full output.[0m
+[0m[[31merror[0m] [0m(compile:[31mrunMain[0m) Nonzero exit code: 1[0m
+[0m[[31merror[0m] [0mTotal time: 2 s, completed May 8, 2016 10:36:56 PM[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=6 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,}.txt[0m
+
+Corpus summary:
+	 Training set size: 305939 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 1481375 tokens
+	 Preprocessing time: 247.742275 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 51.809928 sec
+	 Training data average log likelihood: -39.599419914774224
+
+6 topics:
+TOPIC 0
+algorithm	0.010557597124343655
+magnetic	0.008394901529599987
+radiation	0.0073124026670842905
+siege	0.006888493718941241
+vector	0.006574901041335846
+rates	0.006569966459204204
+zero	0.0062746668591259465
+temperatures	0.006113987404108457
+exists	0.00607611514144493
+separated	0.006075490295927399
+
+TOPIC 1
+zero	0.006930295593698322
+algorithm	0.006491041616735586
+principle	0.006369014287857515
+rates	0.006339124897395029
+throne	0.006041187850472619
+delta	0.005991076900574477
+visible	0.00598853815883117
+temperatures	0.0059744797259589965
+respect	0.005969929255961285
+separated	0.005948511826841002
+
+TOPIC 2
+hebrew	0.007196392113561429
+persian	0.007109431346424723
+rates	0.0063423710747490935
+principle	0.006291869913831404
+machines	0.006216208223748735
+throne	0.006212779067688409
+jerusalem	0.006209915164334936
+continental	0.006171348636446842
+separated	0.006119761604795375
+instrument	0.006107427203568735
+
+TOPIC 3
+continental	0.007339968961910959
+rates	0.006672133321904905
+vector	0.006464199153821783
+zero	0.006282305839826164
+throne	0.0061508733746899295
+exists	0.006118032866592949
+persian	0.006066560167941676
+separated	0.006054705998262192
+principle	0.005987159443228947
+spoken	0.005984822258200295
+
+TOPIC 4
+magnetic	0.007899341490113862
+radiation	0.007785211212251588
+siege	0.0068696745746614695
+mathematical	0.006413766148611107
+rates	0.006380600328097896
+zero	0.0063577564278930855
+continental	0.006322140447445776
+visible	0.006059628621003948
+temperatures	0.006037457465555396
+exists	0.006022671554356135
+
+TOPIC 5
+oxygen	0.00835687109018453
+snow	0.007086408126468464
+patent	0.006740402850350283
+rates	0.006680327884980539
+principle	0.006524981427022964
+temperatures	0.006288404478138656
+instrument	0.0061943575148906225
+exists	0.006017957607921259
+throne	0.006015879366188889
+delta	0.006005670575863213
+
+Terms found in all topics: 
+snow: 1
+spoken: 1
+hebrew: 1
+jerusalem: 1
+machines: 1
+oxygen: 1
+respect: 1
+mathematical: 1
+patent: 1
+radiation: 2
+siege: 2
+visible: 2
+vector: 2
+algorithm: 2
+delta: 2
+persian: 2
+instrument: 2
+magnetic: 2
+continental: 3
+zero: 4
+throne: 4
+temperatures: 4
+principle: 4
+separated: 4
+exists: 4
+rates: 6
+The word 'radiation' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'siege' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'visible' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'vector' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'algorithm' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'delta' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'persian' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'instrument' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'magnetic' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'continental' appeared in 3 topics: adding to data/stop_words.txt.
+The word 'zero' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'throne' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'temperatures' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'principle' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'separated' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'exists' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'rates' appeared in 6 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 307 s, completed May 8, 2016 10:42:29 PM[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=6 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,}.txt[0m
+
+Corpus summary:
+	 Training set size: 305939 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 1485416 tokens
+	 Preprocessing time: 249.721278 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 50.950196 sec
+	 Training data average log likelihood: -38.749676028489866
+
+6 topics:
+TOPIC 0
+machines	0.006601918362337144
+snow	0.006360293516539172
+determine	0.006086834204331205
+suggests	0.005999770414859361
+principles	0.005987274263261389
+traditionally	0.005985450534258236
+respect	0.005982453119740978
+increasingly	0.005978532161655479
+establish	0.005960105523811335
+mathematical	0.0059542061663471054
+
+TOPIC 1
+hebrew	0.00821747636289139
+nazi	0.0063767642747582735
+traditionally	0.006146009844014104
+establish	0.006053389879764191
+decline	0.006028376802383045
+respect	0.006008126004913245
+suggests	0.006002786733627751
+increasingly	0.005925002354229488
+considerable	0.005867913421637629
+determine	0.005864712585462632
+
+TOPIC 2
+logic	0.007855558174828695
+mathematical	0.0063479525744350946
+horses	0.006229699685436739
+germans	0.0061091990158287784
+particles	0.006106762919603968
+establish	0.005970068536354966
+determine	0.005940160595904312
+considerable	0.005924741996830225
+traditionally	0.005915555350373551
+increasingly	0.005906488315025128
+
+TOPIC 3
+respect	0.006277783828148829
+machines	0.006217062553024077
+traditionally	0.006156360513649818
+decline	0.006128169016915878
+determine	0.006039545248774178
+suggests	0.0060250519146984
+calls	0.005988769146998516
+increasingly	0.005945741086241553
+establish	0.005941674903269179
+hebrew	0.005917340926424225
+
+TOPIC 4
+tube	0.006699674363198635
+germans	0.005981480257981359
+traditionally	0.005979003890781242
+respect	0.00595917642898704
+determine	0.005954853823963339
+establish	0.005940802580378423
+decline	0.005905845711713919
+affected	0.00590117302153537
+considerable	0.005874473325369764
+suggests	0.005871285400027494
+
+TOPIC 5
+eagle	0.006798222915517151
+patent	0.006541584730342563
+rocket	0.00636897947507571
+variable	0.006250078068985169
+oxygen	0.0061811150777868
+hawaii	0.0060834789426472925
+determine	0.006005990063666519
+traditionally	0.00600182943785544
+calls	0.005869985689635596
+suggests	0.0058584225817904425
+
+Terms found in all topics: 
+snow: 1
+particles: 1
+logic: 1
+principles: 1
+rocket: 1
+affected: 1
+variable: 1
+horses: 1
+nazi: 1
+eagle: 1
+oxygen: 1
+hawaii: 1
+patent: 1
+tube: 1
+germans: 2
+hebrew: 2
+calls: 2
+machines: 2
+mathematical: 2
+considerable: 3
+decline: 3
+increasingly: 4
+respect: 4
+establish: 5
+suggests: 5
+traditionally: 6
+determine: 6
+The word 'germans' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'hebrew' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'calls' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'machines' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'mathematical' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'considerable' appeared in 3 topics: adding to data/stop_words.txt.
+The word 'decline' appeared in 3 topics: adding to data/stop_words.txt.
+The word 'increasingly' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'respect' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'establish' appeared in 5 topics: adding to data/stop_words.txt.
+The word 'suggests' appeared in 5 topics: adding to data/stop_words.txt.
+The word 'traditionally' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'determine' appeared in 6 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 308 s, completed May 8, 2016 10:48:40 PM[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/seeng/school/Spring2016/comp541/wikipedia-project/target/scala-2.11/classes...[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=6 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,}.txt[0m
+
+Corpus summary:
+	 Training set size: 305939 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 1459430 tokens
+	 Preprocessing time: 246.184033 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 50.726495 sec
+	 Training data average log likelihood: -38.12668013951975
+
+6 topics:
+TOPIC 0
+patent	0.007512754187560528
+logic	0.006882684720720423
+statue	0.006446840889784878
+eagle	0.006340276971090397
+continuous	0.006217038655810451
+measures	0.005998512264574331
+horses	0.005964089857668503
+affected	0.0058850715319253176
+principles	0.005843311240189848
+extreme	0.005843100364540223
+
+TOPIC 1
+snow	0.006833799031971483
+extreme	0.006127467259900093
+debate	0.00603114756357848
+measures	0.005974506213760984
+constitutional	0.005935394276528941
+popularity	0.0058551516484998106
+angle	0.005846214101773317
+principles	0.005842696410593589
+affected	0.00581009461126221
+occasionally	0.005787094794192877
+
+TOPIC 2
+affected	0.006120783555454686
+popularity	0.005927483233773917
+spoken	0.005905625442919175
+occasionally	0.0058353026597259584
+extreme	0.00581378419940415
+principles	0.005791879590965548
+measures	0.0057906724407373635
+successor	0.005788410465040566
+component	0.005729647587421
+rapidly	0.005695782980453133
+
+TOPIC 3
+lords	0.007896688233643118
+jerusalem	0.007684481176472298
+angle	0.006858200322464157
+patent	0.00626199649981198
+affected	0.0060137546335604294
+principles	0.005900861673390399
+extreme	0.005850504734881012
+continuous	0.005844536695196615
+constitutional	0.005838686440193954
+statue	0.005814319643065411
+
+TOPIC 4
+measures	0.006049091174735078
+principles	0.005945396679338893
+nazi	0.0059130765731344416
+popularity	0.005871368289461079
+hawaii	0.005792143081426783
+rapidly	0.005777667098777781
+affected	0.005773663569586087
+eagle	0.005709238487225126
+occasionally	0.005695660556163983
+constitutional	0.005691808563632603
+
+TOPIC 5
+tube	0.006168256079778627
+snow	0.006008542189749501
+affected	0.00593205065707996
+principles	0.005914357138234249
+measures	0.005905166843383345
+statue	0.005838970429802218
+popularity	0.005821230251469721
+extreme	0.005799815733878352
+occasionally	0.005779324962661088
+successor	0.005775746399440665
+
+Terms found in all topics: 
+spoken: 1
+jerusalem: 1
+logic: 1
+lords: 1
+horses: 1
+nazi: 1
+debate: 1
+component: 1
+hawaii: 1
+tube: 1
+snow: 2
+continuous: 2
+angle: 2
+successor: 2
+eagle: 2
+rapidly: 2
+patent: 2
+constitutional: 3
+statue: 3
+popularity: 4
+occasionally: 4
+measures: 5
+extreme: 5
+principles: 6
+affected: 6
+The word 'popularity' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'occasionally' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'measures' appeared in 5 topics: adding to data/stop_words.txt.
+The word 'extreme' appeared in 5 topics: adding to data/stop_words.txt.
+The word 'principles' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'affected' appeared in 6 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 309 s, completed May 8, 2016 10:59:19 PM[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=6 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,}.txt[0m
+
+Corpus summary:
+	 Training set size: 305939 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 1443768 tokens
+	 Preprocessing time: 239.059692 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 50.411414 sec
+	 Training data average log likelihood: -37.8259858445832
+
+6 topics:
+TOPIC 0
+eagle	0.007251908703832151
+snow	0.006995351873312182
+lords	0.00587555541149579
+constitutional	0.005839076005375139
+probability	0.005799325395603838
+successor	0.005792753719131142
+spoken	0.005749187240854555
+rapidly	0.005723538297158875
+formally	0.005722335614791795
+trading	0.005717630363244912
+
+TOPIC 1
+snow	0.0068735167759544
+angle	0.006190093076533899
+continuous	0.006011583945701143
+particles	0.0058583313458270584
+passage	0.005778207170068423
+constitutional	0.005738779095240799
+variable	0.005736274131198216
+texts	0.005721417409002614
+visitors	0.005721118793549971
+spoken	0.005687157725319498
+
+TOPIC 2
+patent	0.00873294772500748
+rocket	0.006045955874642075
+probability	0.006017359816471212
+random	0.0059499187593889755
+component	0.005940110119793542
+continuous	0.005930511164738512
+debate	0.005871456297064523
+successor	0.005851911495242657
+constitutional	0.005713059813493391
+amendment	0.005694567839005617
+
+TOPIC 3
+jerusalem	0.006503854412876653
+constitutional	0.0061515202788793725
+horses	0.00609343067458121
+successor	0.005935702951816127
+debate	0.005789181676140393
+rapidly	0.005784673984722593
+nazi	0.00577586177916697
+visitors	0.0057301223283466795
+component	0.005712793378100348
+continuous	0.005709901163738834
+
+TOPIC 4
+lords	0.0065119271520146915
+logic	0.006445362290168539
+oxygen	0.006172694806835686
+roots	0.0061538433324250285
+hawaii	0.006029700137948708
+spoken	0.005895286476633315
+statue	0.005880795469703549
+root	0.005848259804889587
+constitutional	0.005736560540672144
+debate	0.0057344143896034695
+
+TOPIC 5
+angle	0.0063011033596382954
+bomb	0.005915402495169678
+successor	0.0058021277429648336
+rapidly	0.0057445831571569465
+oxygen	0.005743954279188246
+increases	0.0057386221913596856
+component	0.005729655535947617
+visitors	0.005692336767403954
+continuous	0.005663441453085905
+debate	0.005633415868703208
+
+Terms found in all topics: 
+increases: 1
+random: 1
+texts: 1
+root: 1
+roots: 1
+amendment: 1
+jerusalem: 1
+formally: 1
+particles: 1
+logic: 1
+rocket: 1
+trading: 1
+passage: 1
+variable: 1
+horses: 1
+nazi: 1
+statue: 1
+eagle: 1
+bomb: 1
+hawaii: 1
+patent: 1
+snow: 2
+angle: 2
+lords: 2
+oxygen: 2
+probability: 2
+spoken: 3
+rapidly: 3
+component: 3
+visitors: 3
+continuous: 4
+successor: 4
+debate: 4
+constitutional: 5
+The word 'continuous' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'successor' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'debate' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'constitutional' appeared in 5 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 297 s, completed May 8, 2016 11:04:22 PM[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=6 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,}.txt[0m
+[0m[[31merror[0m] [0m(run-main-0) org.apache.spark.SparkException: Job aborted due to stage failure: Task 64 in stage 10.0 failed 1 times, most recent failure: Lost task 64.0 in stage 10.0 (TID 528, localhost): ExecutorLostFailure (executor driver exited caused by one of the running tasks) Reason: Executor heartbeat timed out after 160678 ms[0m
+[0m[[31merror[0m] [0mDriver stacktrace:[0m
+org.apache.spark.SparkException: Job aborted due to stage failure: Task 64 in stage 10.0 failed 1 times, most recent failure: Lost task 64.0 in stage 10.0 (TID 528, localhost): ExecutorLostFailure (executor driver exited caused by one of the running tasks) Reason: Executor heartbeat timed out after 160678 ms
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1431)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1419)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1418)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1418)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:799)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:799)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:799)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:1640)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1599)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1588)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:620)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1832)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1845)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1858)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1929)
+	at org.apache.spark.rdd.RDD.count(RDD.scala:1157)
+	at LDAExample$.LDAExample$$run(LDAExample.scala:125)
+	at LDAExample$$anonfun$main$1.apply(LDAExample.scala:103)
+	at LDAExample$$anonfun$main$1.apply(LDAExample.scala:102)
+	at scala.Option.map(Option.scala:146)
+	at LDAExample$.main(LDAExample.scala:102)
+	at LDAExample.main(LDAExample.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:runMain[0m for the full output.[0m
+java.lang.RuntimeException: Nonzero exit code: 1
+	at scala.sys.package$.error(package.scala:27)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:runMain[0m for the full output.[0m
+[0m[[31merror[0m] [0m(compile:[31mrunMain[0m) Nonzero exit code: 1[0m
+[0m[[31merror[0m] [0mTotal time: 243 s, completed May 8, 2016 11:08:28 PM[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=6 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,}.txt[0m
+
+Corpus summary:
+	 Training set size: 305939 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 1441632 tokens
+	 Preprocessing time: 246.996707 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 53.573218 sec
+	 Training data average log likelihood: -37.64815403849063
+
+6 topics:
+TOPIC 0
+amendment	0.006445992209794944
+statue	0.006003321784567907
+texts	0.005932839687135268
+particles	0.005928675650076693
+spoken	0.005827412003924772
+rapidly	0.005720711733666443
+component	0.0057006894033904435
+laboratory	0.00568724307605045
+visitors	0.00565792251179793
+formally	0.005651555557103614
+
+TOPIC 1
+patent	0.00905913220787829
+jerusalem	0.005932521153282225
+visitors	0.005901894719454572
+amendment	0.005871828003261477
+legislation	0.005687168161955011
+eagle	0.005685793439157513
+rapidly	0.005667957043552671
+rejected	0.005661535547334228
+passage	0.005649062714853312
+oxygen	0.0056464202702604166
+
+TOPIC 2
+nazi	0.006031779394599491
+component	0.005956904972549681
+mediterranean	0.005925742641214372
+weapon	0.00589244459517568
+variant	0.0058788543445541745
+rapidly	0.005869683824814893
+variable	0.005843157868588255
+statue	0.005703987416691795
+rocket	0.005691833556167617
+strategic	0.005652732657434448
+
+TOPIC 3
+snow	0.006788468639861377
+lords	0.006733881286414519
+eagle	0.00625771650000807
+logic	0.0061708332917665264
+jerusalem	0.005833201015211362
+component	0.005803444504814922
+visitors	0.005750917928528016
+rapidly	0.00572531527549573
+roots	0.005721359720204748
+thousand	0.0057084378162698705
+
+TOPIC 4
+visitors	0.005760924330920665
+liberty	0.00575639643630155
+carrying	0.0057369941785217135
+rapidly	0.005736645055613425
+increases	0.0057257661705875
+formally	0.005711634958893815
+movements	0.005657332852677601
+trading	0.00563203148458318
+component	0.005618685508220263
+andor	0.005608455519437062
+
+TOPIC 5
+variable	0.0070262967778830145
+patent	0.006739903644627352
+tube	0.006446240389686921
+probability	0.006266015931211538
+statue	0.006085397573132293
+random	0.0060384419375293505
+spoken	0.005758089500560393
+jerusalem	0.005741889238283844
+hawaii	0.005670107472449867
+benjamin	0.0056543835047279155
+
+Terms found in all topics: 
+snow: 1
+increases: 1
+movements: 1
+random: 1
+texts: 1
+roots: 1
+variant: 1
+legislation: 1
+particles: 1
+logic: 1
+strategic: 1
+rocket: 1
+mediterranean: 1
+carrying: 1
+trading: 1
+passage: 1
+lords: 1
+nazi: 1
+thousand: 1
+oxygen: 1
+weapon: 1
+rejected: 1
+benjamin: 1
+andor: 1
+laboratory: 1
+liberty: 1
+hawaii: 1
+tube: 1
+probability: 1
+spoken: 2
+amendment: 2
+formally: 2
+variable: 2
+eagle: 2
+patent: 2
+jerusalem: 3
+statue: 3
+component: 4
+visitors: 4
+rapidly: 5
+The word 'component' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'visitors' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'rapidly' appeared in 5 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 309 s, completed May 8, 2016 11:13:42 PM[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=6 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,}.txt[0m
+
+Corpus summary:
+	 Training set size: 305939 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 1436433 tokens
+	 Preprocessing time: 250.454399 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 50.726614 sec
+	 Training data average log likelihood: -37.52021965209107
+
+6 topics:
+TOPIC 0
+lords	0.006279933892896397
+particles	0.006099705881954482
+tube	0.006007415979319927
+spoken	0.0058377071661324855
+increases	0.005738351627930201
+mediterranean	0.005730363853063522
+formally	0.00567961649807025
+celebrated	0.005667174821263809
+andor	0.0056513488310987155
+experimental	0.005612994286975357
+
+TOPIC 1
+patent	0.008084720391934997
+lords	0.00654835573926261
+jerusalem	0.006159118278022154
+snow	0.0058087458534343125
+angle	0.005791746967155192
+oxygen	0.005735590388418184
+increases	0.005606125488746985
+formally	0.005601553599129143
+limits	0.00559833514182835
+andor	0.00559735047235899
+
+TOPIC 2
+snow	0.006370616242994754
+liberty	0.005893535715947265
+passage	0.005870949710117167
+spoken	0.0058271983235479215
+texts	0.005790459286054007
+trading	0.005774070563608126
+statue	0.005736785693167273
+limits	0.0057003028576541916
+formally	0.005677628119386121
+involving	0.005652141940194348
+
+TOPIC 3
+hawaii	0.006850170673681524
+amendment	0.00650797241862793
+variable	0.006449607279659648
+liberty	0.005997954638550819
+logic	0.005882828847813249
+statue	0.005881872582121014
+angle	0.005670547715495181
+coalition	0.005658975259215433
+andor	0.005646907522012436
+legislation	0.005641412002589934
+
+TOPIC 4
+horses	0.006760111908999225
+eagle	0.006358197867134949
+amendment	0.0060278442693067445
+jerusalem	0.005901649339210569
+rocket	0.00583024770302049
+trading	0.005701695004810428
+legislation	0.005697704815246761
+oxygen	0.005691251366461853
+formally	0.005691039065866849
+statue	0.0056610477783214895
+
+TOPIC 5
+snow	0.0069180349139792725
+variable	0.005983716312347661
+spoken	0.005882348960455173
+random	0.005816209802806547
+movements	0.005711240967547803
+formally	0.005661365176599393
+andor	0.005640595009803133
+populations	0.005639445305543415
+statue	0.00562972576255617
+texts	0.005606433022947606
+
+Terms found in all topics: 
+experimental: 1
+movements: 1
+random: 1
+celebrated: 1
+particles: 1
+logic: 1
+rocket: 1
+mediterranean: 1
+populations: 1
+passage: 1
+horses: 1
+involving: 1
+eagle: 1
+coalition: 1
+hawaii: 1
+patent: 1
+tube: 1
+increases: 2
+texts: 2
+angle: 2
+amendment: 2
+jerusalem: 2
+legislation: 2
+trading: 2
+lords: 2
+variable: 2
+oxygen: 2
+liberty: 2
+limits: 2
+snow: 3
+spoken: 3
+statue: 4
+andor: 4
+formally: 5
+The word 'statue' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'andor' appeared in 4 topics: adding to data/stop_words.txt.
+The word 'formally' appeared in 5 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 309 s, completed May 8, 2016 11:18:55 PM[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=6 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,}.txt[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=6 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,}.txt[0m

@@ -1,0 +1,209 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,}.txt[0m
+
+Corpus summary:
+	 Training set size: 392945 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 225522 tokens
+	 Preprocessing time: 51.634585 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 21.631588 sec
+	 Training data average log likelihood: -5.467487673546504
+
+10 topics:
+TOPIC 0
+troll	0.3592936780188883
+linnaeus	0.08478078417051056
+denis	0.07804044048753889
+yang	0.06559360006454255
+hbner	0.06037693136534127
+zeller	0.050867833887553685
+schiffermuller	0.036983101249333586
+wang	0.012269498098678363
+para	0.008300047776248664
+animated	0.002884865443090414
+
+TOPIC 1
+lagged	0.11028869909130551
+albertaredirect	0.04697057703124048
+albertanowiki	0.046970570610188944
+subdistrict	0.042972309300894865
+answer	0.03636123327427246
+accept	0.013490590553703408
+jerusalem	0.007191576597268816
+adults	0.007074550851469638
+fun	0.006718439605928493
+grace	0.005990192046781672
+
+TOPIC 2
+boobies	0.04628475797664152
+johann	0.016000879239085032
+ambassador	0.01594578788896058
+rollbacker	0.01540681013204606
+sustainable	0.014992492926171929
+sysop	0.01213723033668127
+panel	0.010009927816809249
+wilhelm	0.009140911761059103
+enterprise	0.008371365950770605
+qualification	0.008341249408301091
+
+TOPIC 3
+animated	0.02360975483344379
+accept	0.010306179230657474
+rollbacker	0.00992296241654986
+archive	0.009035089116863418
+johann	0.009031237298037656
+sudan	0.008775333610188245
+rico	0.008412914213069025
+depth	0.008082382247122937
+caught	0.007709766302164153
+serbian	0.007467816059171513
+
+TOPIC 4
+faty	0.29059202238512716
+vampire	0.036052331972893335
+fun	0.01832082819584239
+stakes	0.017571078714622396
+adults	0.01222961056983331
+caught	0.005800626992206442
+spoken	0.0052857205021443416
+relegated	0.005226661203258297
+qualification	0.0052086712228035245
+archives	0.005107828875034697
+
+TOPIC 5
+monica	0.4214579994857905
+middot	0.04119994741399318
+detailed	0.037591838460564
+topics	0.02720498875765277
+johann	0.008077718821601326
+accept	0.0045444983550199216
+caught	0.0040739387423051115
+rollbacker	0.003987546716862337
+sandbox	0.003938161362361504
+contested	0.0039044070902301445
+
+TOPIC 6
+muscle	0.20558069708551052
+engorged	0.17969207914367022
+johann	0.02441551606351275
+wilhelm	0.010776385034164108
+rollbacker	0.006466528871571195
+sysop	0.005170053111775316
+architectural	0.0050739467702653205
+caught	0.00506296690413336
+contested	0.004869356623564992
+injured	0.004717414198098228
+
+TOPIC 7
+relationships	0.012591711607219482
+relegated	0.0125131612643189
+patent	0.012239476542457918
+panel	0.012146852635609131
+rollbacker	0.01049641729926076
+spoken	0.009890717962880284
+rico	0.009757475084162245
+cook	0.009174281427275843
+wang	0.009168451724388649
+false	0.008577293972764622
+
+TOPIC 8
+diff	0.5435585801549419
+http	0.43601409029254934
+https	0.008473597381774733
+discography	0.004131463606802615
+sudan	3.371231144990097E-4
+benjamin	2.5986280404194053E-4
+detailed	2.44409637321519E-4
+sarah	2.234069469423178E-4
+wright	1.8257684421742795E-4
+bibliography	1.5636766235410798E-4
+
+TOPIC 9
+syears	0.046996865302385955
+derby	0.010461361534318082
+rollbacker	0.009571085260408774
+advertising	0.00801219940336734
+download	0.007926457967704479
+sysop	0.007873827606059565
+caught	0.007812562536277117
+cook	0.0076847697974290995
+divisin	0.007562392600456531
+nadu	0.007433801225767334
+
+Terms found in all topics: 
+sarah: 1
+false: 1
+topics: 1
+grace: 1
+serbian: 1
+discography: 1
+boobies: 1
+para: 1
+enterprise: 1
+archives: 1
+linnaeus: 1
+subdistrict: 1
+denis: 1
+wright: 1
+jerusalem: 1
+lagged: 1
+zeller: 1
+monica: 1
+https: 1
+stakes: 1
+syears: 1
+derby: 1
+relationships: 1
+injured: 1
+engorged: 1
+hbner: 1
+diff: 1
+sustainable: 1
+yang: 1
+vampire: 1
+middot: 1
+nadu: 1
+sandbox: 1
+troll: 1
+answer: 1
+architectural: 1
+faty: 1
+depth: 1
+divisin: 1
+benjamin: 1
+albertaredirect: 1
+muscle: 1
+bibliography: 1
+ambassador: 1
+http: 1
+archive: 1
+download: 1
+schiffermuller: 1
+patent: 1
+albertanowiki: 1
+advertising: 1
+panel: 2
+cook: 2
+wilhelm: 2
+qualification: 2
+animated: 2
+spoken: 2
+contested: 2
+fun: 2
+adults: 2
+rico: 2
+detailed: 2
+sudan: 2
+relegated: 2
+wang: 2
+accept: 3
+sysop: 3
+johann: 4
+caught: 5
+rollbacker: 6
+The word 'fun' appeared in 2 topics: adding to data/stop_words.txt.
+The word 'rollbacker' appeared in 6 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 78 s, completed May 8, 2016 11:49:17 PM[0m

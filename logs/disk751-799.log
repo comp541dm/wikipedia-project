@@ -1,0 +1,214 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,792,793,794,795,796,797,798,799,}.txt[0m
+
+Corpus summary:
+	 Training set size: 399484 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 227617 tokens
+	 Preprocessing time: 54.660765 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 23.135094 sec
+	 Training data average log likelihood: -5.673904406141977
+
+10 topics:
+TOPIC 0
+pants	0.07199934633582009
+jasmine	0.04596462417920606
+benavidesbig	0.0421334769175536
+kerman	0.015053209649443726
+default	0.013594747509047716
+kml	0.010326013762362179
+linestyle	0.010092735160667743
+yunitspixelsiconstyle	0.00946412631726941
+ffffcolor	0.009420990833796394
+xunitspixels	0.009341733881521081
+
+TOPIC 1
+hihi	0.5491163311574357
+ahmad	0.04996198785450744
+pootis	0.043140579924163994
+kadhar	0.035040482331653036
+euphorbia	0.03270535125533112
+schedule	0.021740751212380914
+shah	0.009981450932251739
+buffalo	0.008648992094918966
+kerman	0.005945648418648096
+baker	0.003901696935759353
+
+TOPIC 2
+episcopal	0.037530032490892345
+buffalo	0.032637401950308446
+softball	0.03185017324250367
+au	0.03023093350033291
+margin	0.028336209283022235
+linestyle	0.027142258739336428
+ffffcolor	0.024622853480542058
+grid	0.022886689323824164
+linestring	0.020129004943617395
+placemark	0.016924444319498758
+
+TOPIC 3
+blah	0.7704731669896178
+kerman	0.005945415694404623
+geometridae	0.0034276312461220897
+khuzestan	0.003198775648067345
+cave	0.002947748322458005
+completion	0.0027566155962077013
+namibia	0.00226768791105696
+notice	0.0021921517404261295
+friendly	0.002145629785968505
+thailand	0.0020466413225803436
+
+TOPIC 4
+middot	0.042894389102105523
+reassessed	0.03741306271596436
+armenian	0.03133652906749589
+para	0.018898949006302304
+kerman	0.012047868576307954
+linestyle	0.010750472469141922
+ffffcolor	0.010397275252886355
+yunitspixelsiconstyle	0.01015512785599034
+xunitspixels	0.010105083420312076
+kml	0.009943612331434674
+
+TOPIC 5
+diff	0.5294942396425827
+http	0.390207013554114
+carex	0.022620288343596525
+https	0.02043229859391399
+grid	0.009569985427347709
+abuse	0.001814045786739701
+americas	0.0010814322716776938
+syria	8.488022189267527E-4
+descent	7.479612752307331E-4
+kumar	4.88641298782456E-4
+
+TOPIC 6
+bedros	0.07403292464429766
+namebr	0.05161841389331083
+pnmxml	0.044848809695124406
+runner	0.034369220126096924
+clothing	0.023814029372760025
+kerman	0.013336932377577392
+virus	0.010500917163733707
+stress	0.0074831331745518715
+kml	0.007475166297288869
+geometridae	0.007247190556100586
+
+TOPIC 7
+hstxml	0.03541205884047105
+historybr	0.035412058840455105
+kerman	0.017456526458281822
+default	0.012541820135945169
+youtube	0.010603620758561172
+geometridae	0.00943438417401623
+thailand	0.009212834089563226
+completion	0.009120902500667185
+khuzestan	0.00882696585667408
+namibia	0.008608915793820004
+
+TOPIC 8
+placemark	0.08157516538577464
+yang	0.06347142198922194
+postcode	0.05545437719140652
+polygon	0.047970379436313444
+linearring	0.04688928859228769
+outerboundaryis	0.046570717802966614
+districtdescription	0.04422510327932743
+viaf	0.04118578122816733
+false	0.028532966202614477
+ffffcolor	0.020093798060566676
+
+TOPIC 9
+topics	0.0761081274706522
+rdsmall	0.03876252558717574
+cltxml	0.037873276924940275
+culturebr	0.03779915461820196
+illustrated	0.03547162623933807
+friday	0.017741258458324072
+default	0.01541268721273694
+caribbean	0.014738939031446128
+arabic	0.012646737754822213
+kerman	0.011471921759820662
+
+Terms found in all topics: 
+false: 1
+carex: 1
+topics: 1
+margin: 1
+historybr: 1
+jasmine: 1
+polygon: 1
+para: 1
+rdsmall: 1
+abuse: 1
+youtube: 1
+culturebr: 1
+ahmad: 1
+kadhar: 1
+baker: 1
+postcode: 1
+softball: 1
+runner: 1
+viaf: 1
+https: 1
+blah: 1
+episcopal: 1
+cltxml: 1
+hstxml: 1
+shah: 1
+virus: 1
+cave: 1
+linestring: 1
+notice: 1
+diff: 1
+yang: 1
+middot: 1
+friendly: 1
+pants: 1
+armenian: 1
+pootis: 1
+clothing: 1
+stress: 1
+schedule: 1
+outerboundaryis: 1
+arabic: 1
+districtdescription: 1
+bedros: 1
+friday: 1
+au: 1
+caribbean: 1
+reassessed: 1
+americas: 1
+benavidesbig: 1
+syria: 1
+descent: 1
+euphorbia: 1
+illustrated: 1
+http: 1
+hihi: 1
+pnmxml: 1
+kumar: 1
+namebr: 1
+linearring: 1
+khuzestan: 2
+xunitspixels: 2
+completion: 2
+grid: 2
+yunitspixelsiconstyle: 2
+placemark: 2
+thailand: 2
+namibia: 2
+buffalo: 2
+linestyle: 3
+kml: 3
+default: 3
+geometridae: 3
+ffffcolor: 4
+kerman: 7
+The word 'au' appeared in 1 topics: adding to data/stop_words.txt.
+The word 'kml' appeared in 3 topics: adding to data/stop_words.txt.
+The word 'kerman' appeared in 7 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 82 s, completed May 8, 2016 11:52:06 PM[0m

@@ -1,0 +1,207 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,}.txt[0m
+
+Corpus summary:
+	 Training set size: 393324 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 220707 tokens
+	 Preprocessing time: 52.490079 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 21.493827 sec
+	 Training data average log likelihood: -6.244468077055724
+
+10 topics:
+TOPIC 0
+butler	0.05955768657276172
+simpledata	0.05939214000873548
+prout	0.057124681944464906
+yang	0.03881663074167412
+spamthis	0.038079302900649765
+linnaeus	0.031177342943783708
+simplefield	0.03090468269694909
+turner	0.028097102238411945
+fabricius	0.027477451671079345
+linestyle	0.02664948692463271
+
+TOPIC 1
+middot	0.034131291523253934
+diff	0.03179198875166299
+appearing	0.028661075725782897
+http	0.02840158708117865
+dans	0.01954209168787518
+discography	0.014022266789586435
+paralympics	0.012979885162118544
+https	0.012149748621949797
+syrian	0.012037513467211282
+syria	0.010694947723093158
+
+TOPIC 2
+peoplehello	0.04582424643222901
+infrastructure	0.04002132979167439
+para	0.027712719374323874
+eurovision	0.024624925547782273
+indonesian	0.022369158118118466
+cycling	0.017496139404056945
+stakes	0.016478194439259467
+syrian	0.012009998292397725
+injured	0.011039676344860664
+accused	0.009649987135011636
+
+TOPIC 3
+frogs	0.04208442923058413
+archive	0.027019387726277558
+paralympics	0.015613548681757801
+ka	0.013235048456219846
+freestyle	0.012212817598198158
+false	0.011339911759909012
+self	0.010106138270869482
+journalism	0.009845196067304598
+marathon	0.009556310296006223
+server	0.008909761122388083
+
+TOPIC 4
+diff	0.5265459554004598
+http	0.4006864898425972
+horizadvx	0.014727180499483109
+glyph	0.014727027203294501
+captives	0.012312751651818356
+https	0.012218144232766128
+afghanistan	0.004062756088313912
+benjamin	0.0034327766090070048
+discography	0.002275119423911975
+identify	5.353152333627908E-4
+
+TOPIC 5
+kisses	0.3703302553176329
+isabellaphineas	0.36833116842445474
+spam	0.06358044668803593
+flowersi	0.05034072487742258
+email	0.00390137115945982
+olympicsreferences	0.002891377329188162
+self	0.002089325089318777
+hook	0.0019756413642360387
+butterfly	0.0018679992459848995
+reviewed	0.001672423147217498
+
+TOPIC 6
+mera	0.4992865323360361
+trea	0.3647558545100425
+fleetrace	0.04056810141912899
+olympicsreferences	0.002266156920157244
+hook	0.0014388533760968068
+self	0.0014095970825789652
+butterfly	0.001329808696119133
+reviewed	0.0012270353452579943
+contested	0.0012045789858968756
+bibliography	0.0011427865812585903
+
+TOPIC 7
+mickbig	0.25323175234696116
+birmingham	0.014073284120762935
+sculpture	0.009138511533588859
+self	0.008632388902776409
+nigeria	0.008603644895592556
+hook	0.008456062441734703
+olympicsreferences	0.007835211734050022
+paralympics	0.007656913980133306
+freestyle	0.007632057335880989
+butterfly	0.007329851305619539
+
+TOPIC 8
+tide	0.43831765595939437
+turbonilla	0.04952739672989637
+acraea	0.034955774676515915
+charaxes	0.018410475010670672
+cycling	0.007012623092765804
+olympicsreferences	0.006675212106649852
+self	0.005915814846749269
+congo	0.00581837641417226
+butterfly	0.005675880219758434
+hook	0.005671195388194374
+
+TOPIC 9
+trea	0.533071975449021
+mera	0.4606605224327079
+olympicsreferences	1.7292226365556772E-4
+self	9.524288009544236E-5
+hook	9.315368130515572E-5
+contested	9.105259053146048E-5
+butterfly	8.917179764137434E-5
+reviewed	8.414629565890036E-5
+bibliography	8.017272855065851E-5
+bachelor	6.547277941348785E-5
+
+Terms found in all topics: 
+spamthis: 1
+butler: 1
+false: 1
+eurovision: 1
+ka: 1
+frogs: 1
+dans: 1
+server: 1
+charaxes: 1
+tide: 1
+para: 1
+email: 1
+indonesian: 1
+peoplehello: 1
+marathon: 1
+birmingham: 1
+linestyle: 1
+bachelor: 1
+congo: 1
+kisses: 1
+infrastructure: 1
+linnaeus: 1
+turner: 1
+fabricius: 1
+journalism: 1
+isabellaphineas: 1
+glyph: 1
+turbonilla: 1
+stakes: 1
+mickbig: 1
+simpledata: 1
+injured: 1
+captives: 1
+yang: 1
+middot: 1
+appearing: 1
+fleetrace: 1
+sculpture: 1
+acraea: 1
+nigeria: 1
+benjamin: 1
+syria: 1
+accused: 1
+prout: 1
+spam: 1
+archive: 1
+flowersi: 1
+identify: 1
+afghanistan: 1
+simplefield: 1
+horizadvx: 1
+mera: 2
+discography: 2
+contested: 2
+https: 2
+trea: 2
+diff: 2
+freestyle: 2
+bibliography: 2
+syrian: 2
+http: 2
+cycling: 2
+reviewed: 3
+paralympics: 3
+butterfly: 5
+hook: 5
+olympicsreferences: 5
+self: 6
+The word 'ka' appeared in 1 topics: adding to data/stop_words.txt.
+The word 'self' appeared in 6 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 79 s, completed May 8, 2016 11:50:40 PM[0m

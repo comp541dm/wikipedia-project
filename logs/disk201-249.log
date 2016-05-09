@@ -1,0 +1,202 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,}.txt[0m
+
+Corpus summary:
+	 Training set size: 455480 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 386472 tokens
+	 Preprocessing time: 81.863772 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 27.080918 sec
+	 Training data average log likelihood: -7.501457761779545
+
+10 topics:
+TOPIC 0
+injured	0.06132355588748435
+homeless	0.037171032018378763
+danny	0.0316100337006845
+crash	0.020123269962668652
+eagles	0.009492173326239004
+keith	0.009143467690708744
+fred	0.007693190835457054
+eagle	0.007686760387799911
+snow	0.00768031590827829
+barry	0.007292709168284778
+
+TOPIC 1
+toastbutter	0.1535158898015362
+monkey	0.07332156415046484
+barry	0.006458068564335901
+comments	0.006407605820522742
+merge	0.006371524245217258
+reverted	0.006313866401426298
+maybe	0.006119984736175077
+missions	0.0060896579633848555
+acoustic	0.005960073896068419
+sarah	0.005777035395497388
+
+TOPIC 2
+plugin	0.06798081479212609
+skipped	0.06767117462679541
+armenian	0.03104052773001803
+kingbotkp	0.022818839901615928
+eagle	0.007076800096956409
+eagles	0.006389845635450583
+comments	0.006195012420696833
+fred	0.00608969000008691
+merge	0.00606544339387074
+reverted	0.006060941709870423
+
+TOPIC 3
+sheriffs	0.038988155401069625
+agencies	0.01399492029981563
+snow	0.008742023987411212
+buffalo	0.00842260839774961
+eagle	0.007320869713333354
+broadway	0.007136790159723774
+fred	0.007026641144612346
+comments	0.006938017107698828
+merge	0.0068932545694821105
+reverted	0.006855968351307574
+
+TOPIC 4
+matched	0.3166974942826846
+pointstotal	0.10303896904812351
+plugin	0.07408227422339168
+kingbotkp	0.05500037541770165
+regulations	0.05227810313262844
+classstub	0.04422501622355467
+amendment	0.04093302298994559
+skipped	0.03789372461502209
+autoyesbiography	0.03694898278885997
+autoyesplugin	0.03684405036804327
+
+TOPIC 5
+desu	0.2613705248789072
+soxknockout	0.14984127457110843
+filmed	0.00680054000871151
+agencies	0.0054573926571957615
+reverted	0.005348404635102354
+merge	0.005225298922808796
+comments	0.00513604110142995
+maybe	0.0047193142749797036
+sheriffs	0.004606000286426197
+citation	0.004578828925432013
+
+TOPIC 6
+hosko	0.4023807087054423
+reverted	0.0059652754200706605
+merge	0.005620950836338337
+comments	0.005419545946500656
+argentine	0.00541887484550085
+maybe	0.00514749010496043
+pretty	0.004745932828094588
+infobox	0.00470748071766462
+citation	0.004663020218786082
+vandalism	0.0046343643866185325
+
+TOPIC 7
+pupils	0.014309162803770065
+eagles	0.01141210661887547
+eagle	0.010247792098751778
+strategic	0.009151062499312402
+afghanistan	0.009098691699772987
+turner	0.009017904106907
+buffalo	0.00826652897896909
+bomb	0.008218196478895252
+allies	0.00818203126757875
+credits	0.007838265858600068
+
+TOPIC 8
+userreport	0.09100736951809692
+phone	0.011997082580168775
+cole	0.01178509946791517
+terry	0.010428890347152324
+ambassador	0.007695042341525428
+lions	0.007520098871631471
+broadway	0.0070310222330958825
+sarah	0.006939615790517156
+eagle	0.006859006371750831
+adapted	0.006562175797463444
+
+TOPIC 9
+addedbiography	0.1345006273386853
+wpbiography	0.13029165874372706
+livingyesbiography	0.09042761934946762
+sigelhobit	0.06304180804542393
+middot	0.048686233201856687
+horses	0.01602898368704055
+relating	0.013157530452046524
+cole	0.006219645021063498
+filmed	0.00478637518860125
+cinema	0.004543334515398702
+
+Terms found in all topics: 
+argentine: 1
+keith: 1
+autoyesbiography: 1
+wpbiography: 1
+allies: 1
+autoyesplugin: 1
+regulations: 1
+toastbutter: 1
+userreport: 1
+terry: 1
+livingyesbiography: 1
+crash: 1
+pretty: 1
+turner: 1
+sigelhobit: 1
+vandalism: 1
+desu: 1
+adapted: 1
+credits: 1
+amendment: 1
+matched: 1
+soxknockout: 1
+pointstotal: 1
+monkey: 1
+infobox: 1
+lions: 1
+pupils: 1
+strategic: 1
+injured: 1
+middot: 1
+cinema: 1
+armenian: 1
+homeless: 1
+hosko: 1
+horses: 1
+addedbiography: 1
+acoustic: 1
+danny: 1
+missions: 1
+classstub: 1
+ambassador: 1
+bomb: 1
+afghanistan: 1
+relating: 1
+phone: 1
+plugin: 2
+snow: 2
+sarah: 2
+agencies: 2
+kingbotkp: 2
+skipped: 2
+cole: 2
+citation: 2
+filmed: 2
+barry: 2
+broadway: 2
+sheriffs: 2
+buffalo: 2
+maybe: 3
+fred: 3
+eagles: 3
+merge: 5
+reverted: 5
+eagle: 5
+comments: 5
+[0m[[32msuccess[0m] [0mTotal time: 114 s, completed May 8, 2016 11:36:03 PM[0m

@@ -1,0 +1,179 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,}.txt[0m
+
+Corpus summary:
+	 Training set size: 470713 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 725165 tokens
+	 Preprocessing time: 130.68889 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 33.060065 sec
+	 Training data average log likelihood: -11.859237275319645
+
+10 topics:
+TOPIC 0
+define	0.09445057338482185
+changing	0.005695790915261395
+instrumental	0.005690006981891006
+apparently	0.005639275189383146
+movies	0.00560889812524937
+huge	0.005593869262927738
+regularly	0.005569188022750273
+adelaide	0.005559617611867697
+injured	0.00540554546890977
+hired	0.005400566057893811
+
+TOPIC 1
+rabbi	0.011813376917789272
+collins	0.009461406679595765
+passage	0.0076243039453972785
+adelaide	0.006945045384640891
+jerusalem	0.006187182915870715
+apparently	0.006128563761319958
+instrumental	0.0061232660993785545
+changing	0.00612252457456186
+movies	0.006108415481073719
+offering	0.006101160650289472
+
+TOPIC 2
+collins	0.015657930858778438
+innings	0.008416147356010642
+passage	0.008167287451617072
+apple	0.006648907364090836
+adelaide	0.006558755897512035
+horses	0.006378123093055366
+regularly	0.006059528180331361
+caught	0.006015694498010723
+changing	0.006014348275774459
+movies	0.006004661657579455
+
+TOPIC 3
+celtic	0.007520663973972186
+instrumental	0.006247250565384343
+apparently	0.006197274451426156
+movies	0.006175473626284456
+huge	0.006133550730676799
+changing	0.006091153428549322
+hired	0.006090492838905177
+caught	0.006043656905924385
+regularly	0.0059874578696205
+injured	0.005969408600454434
+
+TOPIC 4
+sand	0.010218355310634765
+marvel	0.00846148209091971
+horses	0.006797655599332099
+tribute	0.006631330936755614
+adelaide	0.006395375355725156
+instrumental	0.006235836234993035
+apparently	0.006199256246421555
+innings	0.006046695545307048
+changing	0.0060391398433337
+regularly	0.006032177032600918
+
+TOPIC 5
+sand	0.018737934495755892
+apple	0.009831549807439895
+passage	0.00697635192713206
+huge	0.006202592995832748
+instrumental	0.006180894929202227
+tribute	0.006174961071068758
+apparently	0.006117976747565784
+movies	0.006036773264262614
+changing	0.005987292413439313
+regularly	0.005960200570919589
+
+TOPIC 6
+councillor	0.04962408063059732
+celtic	0.030187660815579026
+pierre	0.0073716056185953865
+apple	0.00725505661903656
+innings	0.006431004746479994
+harbour	0.006248651773379409
+charges	0.006067698335013993
+ferry	0.005751754193987376
+temporary	0.00574528609247169
+credits	0.005722014181748588
+
+TOPIC 7
+regulations	0.1558411929708552
+amendment	0.14115843523081498
+designation	0.021825863100262275
+charges	0.016977539697761702
+merchant	0.012327025110031043
+harbour	0.00925446216282247
+temporary	0.00913848796296849
+credits	0.006047316327042749
+experimental	0.006042846793716185
+legislation	0.005668329030045547
+
+TOPIC 8
+collins	0.01711267222712487
+charges	0.009011757309893786
+designation	0.008681708668986675
+merchant	0.0075548346533434235
+temporary	0.007451157932570106
+harbour	0.007087056380426531
+marks	0.006474210157145472
+changing	0.006076151854704121
+credits	0.006062836426143053
+returns	0.006013751955356657
+
+TOPIC 9
+tribute	0.007210119138508315
+rabbi	0.006500912780255516
+returns	0.006308706125770544
+adelaide	0.006267884202686007
+hired	0.0062323306260362
+movies	0.006224717801464857
+apparently	0.0062117281541077375
+injured	0.006187501803620152
+jerusalem	0.006179645010036264
+instrumental	0.006115388151051736
+
+Terms found in all topics: 
+experimental: 1
+regulations: 1
+marks: 1
+amendment: 1
+legislation: 1
+ferry: 1
+offering: 1
+pierre: 1
+councillor: 1
+define: 1
+marvel: 1
+sand: 2
+designation: 2
+jerusalem: 2
+rabbi: 2
+caught: 2
+returns: 2
+horses: 2
+celtic: 2
+merchant: 2
+innings: 3
+huge: 3
+tribute: 3
+harbour: 3
+temporary: 3
+credits: 3
+collins: 3
+injured: 3
+charges: 3
+passage: 3
+apple: 3
+hired: 3
+adelaide: 5
+regularly: 5
+apparently: 6
+movies: 6
+instrumental: 6
+changing: 7
+The word 'apparently' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'movies' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'instrumental' appeared in 6 topics: adding to data/stop_words.txt.
+The word 'changing' appeared in 7 topics: adding to data/stop_words.txt.
+[0m[[32msuccess[0m] [0mTotal time: 169 s, completed May 8, 2016 11:31:33 PM[0m

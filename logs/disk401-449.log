@@ -1,0 +1,205 @@
+[0m[[0minfo[0m] [0mLoading project definition from /Users/seeng/school/Spring2016/comp541/wikipedia-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to wikipedia-topic-modeling (in build file:/Users/seeng/school/Spring2016/comp541/wikipedia-project/)[0m
+[0m[[0minfo[0m] [0mRunning LDAExample --k=10 --stopwordFile=data/stop_words.txt --vocabSize=200 ../wikipedia_data/disk{401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,}.txt[0m
+
+Corpus summary:
+	 Training set size: 306850 documents
+	 Vocabulary size: 200 terms
+	 Training set size: 218349 tokens
+	 Preprocessing time: 52.211873 sec
+
+Finished training LDA model.  Summary:
+	 Training time: 21.975291 sec
+	 Training data average log likelihood: -6.385296245680113
+
+10 topics:
+TOPIC 0
+presentday	0.05917056556180949
+anybot	0.04542853353690451
+domaw	0.03709418156551168
+reconnaissance	0.02321355126973364
+hole	0.02073295506436685
+enforcement	0.020482457752821214
+bachelor	0.007174355209136558
+criteria	0.006827003567331843
+nevada	0.006493184795188677
+manuscript	0.006408499414500044
+
+TOPIC 1
+asteroidslist	0.04861577343835255
+geregen	0.04336573072431893
+obama	0.03876130521997583
+horses	0.014219770972965192
+cincinnati	0.012725883523908849
+scotia	0.00945545325466858
+nevada	0.009065821338024811
+innings	0.008957426501692851
+mitchell	0.008752989490817554
+buffalo	0.00795405756327065
+
+TOPIC 2
+rico	0.013063843558700486
+ballet	0.011713838102176384
+scotia	0.011003207996978744
+nrhp	0.010854076410591693
+bombardment	0.010240336582066571
+hawaii	0.010035191399559542
+manuscript	0.009173208723436237
+jerusalem	0.008988884354038886
+strategic	0.008482327610058639
+rocks	0.008316163498271308
+
+TOPIC 3
+bull	0.49687569359592293
+yang	0.012769788333943743
+polandreferencescategory	0.004940844508235053
+criteria	0.004871564173853933
+expelled	0.004814398564118392
+scotia	0.004646223387934108
+archive	0.004641454703632619
+prussia	0.00453906224738392
+horses	0.0044191716417113875
+inclusion	0.004416918366123535
+
+TOPIC 4
+kotbot	0.3922489811721585
+lubusz	0.0374871435666619
+outline	0.033651474342693874
+opole	0.03102642167751338
+diplomatic	0.02275635067933442
+cinema	0.022365434394636625
+missions	0.021821006890137575
+lugnuts	0.016143855781733725
+reconnaissance	0.012186143179307211
+rico	0.009139395625390297
+
+TOPIC 5
+viola	0.04113058242450764
+violin	0.03655738970442981
+yang	0.015864445575899062
+missions	0.013918600654585745
+innings	0.013810169792230115
+hawaii	0.011915104271834339
+executed	0.011098131829588551
+manuscript	0.010076105262969195
+archive	0.00804413398683098
+testament	0.007618693642231714
+
+TOPIC 6
+matched	0.14521415237413493
+inhibited	0.05259157499512029
+pointstotal	0.05202201169510008
+mathes	0.051650608898369234
+abyssal	0.046743759109708134
+icecreamantisocial	0.04327045621755827
+middot	0.0417902549521549
+suicide	0.027757828533344114
+ballet	0.011251913963818588
+hindu	0.0052499252611843674
+
+TOPIC 7
+bombardment	0.03170570544759472
+executed	0.02087528061160731
+mario	0.02004950924721334
+airfield	0.014598648509668737
+scotia	0.011950261286932815
+nrhp	0.010156738760036501
+manuscript	0.00953599036804682
+nevada	0.009016610594930892
+strategic	0.008366255142254307
+judges	0.007942907754255338
+
+TOPIC 8
+nong	0.22578376632694575
+flourishning	0.22483746448613692
+blofeld	0.14042464129949475
+albertherring	0.04979200317476577
+lugnuts	0.021637090314601034
+domaw	0.012760364918180608
+pierre	0.005377551736905086
+bernard	0.004238879712041792
+airfield	0.0036380985921722593
+thailand	0.0033634732595155107
+
+TOPIC 9
+bridges	0.025748497786964152
+horses	0.015333202486936391
+criteria	0.00890536456688828
+expelled	0.008212229690333278
+manuscript	0.007948355831472124
+inclusion	0.00789510224456525
+ambassador	0.007776857559502269
+contribute	0.007549176635054006
+testament	0.0074538663229101335
+polandreferencescategory	0.0074411732087062464
+
+Terms found in all topics: 
+mario: 1
+abyssal: 1
+flourishning: 1
+bernard: 1
+geregen: 1
+icecreamantisocial: 1
+presentday: 1
+outline: 1
+mitchell: 1
+lubusz: 1
+bachelor: 1
+kotbot: 1
+suicide: 1
+diplomatic: 1
+enforcement: 1
+nong: 1
+jerusalem: 1
+matched: 1
+bridges: 1
+anybot: 1
+albertherring: 1
+pointstotal: 1
+prussia: 1
+viola: 1
+inhibited: 1
+mathes: 1
+obama: 1
+asteroidslist: 1
+opole: 1
+violin: 1
+contribute: 1
+middot: 1
+cinema: 1
+rocks: 1
+pierre: 1
+thailand: 1
+judges: 1
+hindu: 1
+hole: 1
+ambassador: 1
+buffalo: 1
+cincinnati: 1
+bull: 1
+blofeld: 1
+innings: 2
+nrhp: 2
+reconnaissance: 2
+domaw: 2
+ballet: 2
+testament: 2
+airfield: 2
+strategic: 2
+executed: 2
+yang: 2
+polandreferencescategory: 2
+bombardment: 2
+rico: 2
+inclusion: 2
+lugnuts: 2
+missions: 2
+archive: 2
+hawaii: 2
+expelled: 2
+criteria: 3
+nevada: 3
+horses: 3
+scotia: 4
+manuscript: 5
+[0m[[32msuccess[0m] [0mTotal time: 79 s, completed May 8, 2016 11:42:18 PM[0m
