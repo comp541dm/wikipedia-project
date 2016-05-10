@@ -1,0 +1,27 @@
+---
+title: "Wikipedia Topic Modeling"
+author: "Stefan Eng"
+date: "May 10, 2016"
+output: html_document
+---
+
+Example from Steven's work.
+```{r}
+library(ggplot2)
+
+# Load Data
+exampleTopic <- read.table(text= "matched          	0.12594222682497463
+cycling   0.11040860181875503
+pointstotal      	0.01883680620194466
+nrhp  	0.018183732252024753
+indoor   0.009360632715541141
+ballet 	0.007970841128235982
+gfdl    	0.00689065793748799
+criteria  0.006815185602767708
+inclusion          	0.00679957348678411
+taiwan  0.006655829670205066")
+
+
+# Plot using histogram
+ggplot(exampleTopic, aes(x = factor(word, levels=exampleTopic[order(prob, decreasing = TRUE), "word"]), y = prob))  + geom_bar(stat = "identity") + ggtitle("Example Topic") + ylab("Probabilities") + xlab("Words")
+```
