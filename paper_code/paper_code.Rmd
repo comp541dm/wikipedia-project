@@ -25,5 +25,5 @@ taiwan  0.006655829670205066")
 colnames(exampleTopic) <- c("word", "prob")
 
 # Plot using histogram
-ggplot(exampleTopic, aes(x = factor(word, levels=exampleTopic[order(prob, decreasing = TRUE), "word"]), y = prob))  + geom_bar(stat = "identity") + ggtitle("Example Topic") + ylab("Probabilities") + xlab("Words")
+ggplot(exampleTopic, aes(x = factor(word, levels=exampleTopic[order(prob, decreasing = TRUE), "word"]), y = prob))  + geom_bar(stat = "identity", fill="#4285f4", color="#000000") + ggtitle("Example Topic") + ylab("Probabilities") + xlab("Words")
 ```
