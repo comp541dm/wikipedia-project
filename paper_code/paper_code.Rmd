@@ -21,6 +21,8 @@ criteria  0.006815185602767708
 inclusion          	0.00679957348678411
 taiwan  0.006655829670205066")
 
+# Label the topic columns
+colnames(exampleTopic) <- c("word", "prob")
 
 # Plot using histogram
 ggplot(exampleTopic, aes(x = factor(word, levels=exampleTopic[order(prob, decreasing = TRUE), "word"]), y = prob))  + geom_bar(stat = "identity") + ggtitle("Example Topic") + ylab("Probabilities") + xlab("Words")
